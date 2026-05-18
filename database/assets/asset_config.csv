@@ -1,0 +1,11 @@
+asset_id,asset_name,temperature_file,power_file
+FCU_01,Fan Coil Unit GF-01,FCU_01_temperature.csv,FCU_01_power.csv
+FCU_02,Fan Coil Unit GF-03,FCU_02_temperature.csv,FCU_02_power.csv
+FCU_04,Fan Coil Unit 1F-01,FCU_04_temperature.csv,FCU_04_power.csv
+FCU_05,Fan Coil Unit 1F-02,FCU_05_temperature.csv,FCU_05_power.csv
+FCU_06,Fan Coil Unit 2F-01,FCU_06_temperature.csv,FCU_06_power.csv
+FCU_07,Fan Coil Unit 2F-12,FCU_07_temperature.csv,FCU_07_power.csv
+FCU_08,Fan Coil Unit 3F-01,FCU_08_temperature.csv,FCU_08_power.csv
+FCU_09,Fan Coil Unit 3F-02,FCU_09_temperature.csv,FCU_09_power.csv
+FCU_10,Fan Coil Unit 4F-01,FCU_10_temperature.csv,FCU_10_power.csv
+FCU_11,Fan Coil Unit 4F-02,FCU_11_temperature.csv,FCU_11_power.csv

@@ -1,0 +1,22 @@
+asset_id,Verified Asset Description,Total Years in Operation,CIBSE Life Expectancy,Rating_Numeric,AHI (%),Health_Category,Estimated_RUL (Years),Brick_Class
+PUMP_CHW_1,CHW Primary Pump 1,5,25,4,82.2,Excellent,20.6,brick:HVAC_System
+PUMP_CHW_2,CHW Primary Pump 2,5,25,4,82.2,Excellent,20.6,brick:HVAC_System
+PUMP_DHW_1,DHW Primary Pump 1,5,25,5,94.2,Excellent,23.6,brick:HVAC_System
+PUMP_DHW_2,DHW Primary Pump 2,5,25,4,82.2,Excellent,20.6,brick:HVAC_System
+PUMP_DHW_S,DHW Secondary Pump,5,25,3,70.2,Good,17.6,brick:HVAC_System
+PUMP_LTHW_1,LTHW Primary Pump 1,5,25,4,82.2,Excellent,20.6,brick:HVAC_System
+PUMP_LTHW_2,LTHW Primary Pump 2,5,25,4,82.2,Excellent,20.6,brick:HVAC_System
+AHU_1,AHU 1,5,15,3,65.3,Good,9.8,brick:HVAC_System
+AHU_2,AHU 2,5,15,4,77.3,Good,11.6,brick:HVAC_System
+AHU_Kitchen,AHU Kitchen,5,15,4,77.3,Good,11.6,brick:HVAC_System
+FCU_01_01,Fan Coil Unit - Floor 01,5,15,4,77.3,Good,11.6,brick:HVAC_System
+FCU_02_01,Fan Coil Unit - Floor 02,5,15,4,77.3,Good,11.6,brick:HVAC_System
+FCU_03_01,Fan Coil Unit - Floor 03,5,15,4,77.3,Good,11.6,brick:HVAC_System
+FCU_04_01,Fan Coil Unit - Floor 04,5,15,4,77.3,Good,11.6,brick:HVAC_System
+FCU_05_01,Fan Coil Unit - Floor 05,5,15,4,77.3,Good,11.6,brick:HVAC_System
+FCU_06_01,Fan Coil Unit - Floor 06,5,15,4,77.3,Good,11.6,brick:HVAC_System
+FCU_07_01,Fan Coil Unit - Floor 07,5,15,4,77.3,Good,11.6,brick:HVAC_System
+FCU_08_01,Fan Coil Unit - Floor 08,5,15,4,77.3,Good,11.6,brick:HVAC_System
+FCU_09_01,Fan Coil Unit - Floor 09,5,15,4,77.3,Good,11.6,brick:HVAC_System
+FCU_10_01,Fan Coil Unit - Floor 10,5,15,4,77.3,Good,11.6,brick:HVAC_System
+FCU_11_01,Fan Coil Unit - Floor 11,5,15,4,77.3,Good,11.6,brick:HVAC_System

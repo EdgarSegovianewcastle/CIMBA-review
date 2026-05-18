@@ -1,0 +1,11 @@
+Asset ID,Date,Description,jobGroupName,p2pValue,Type,Condition Rating
+FCU_01,2023-05-20,Filter replacement,HVAC,185,Scheduled,3 - On Notice
+FCU_02,2023-05-20,Filter replacement,HVAC,95,Scheduled,4 - Satisfactory
+FCU_04,2023-05-20,Filter replacement,HVAC,145,Scheduled,4 - Satisfactory
+FCU_05,2023-05-20,Filter replacement,HVAC,280,Scheduled,3 - On Notice
+FCU_06,2023-05-20,Filter replacement,HVAC,110,Scheduled,5 - Good
+FCU_07,2023-05-20,Filter replacement,HVAC,90,Scheduled,5 - Good
+FCU_08,2023-05-20,Filter replacement,HVAC,85,Scheduled,4 - Satisfactory
+FCU_09,2023-05-20,Filter replacement,HVAC,175,Scheduled,4 - Satisfactory
+FCU_10,2023-05-20,Filter replacement,HVAC,520,Scheduled,3 - On Notice
+FCU_11,2023-05-20,Filter replacement,HVAC,90,Scheduled,5 - Good

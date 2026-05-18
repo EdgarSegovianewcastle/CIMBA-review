@@ -1,0 +1,11 @@
+Asset Name,Brick_Class,Criticality_Index,Suitable_for_PdM,Priority_Level,Expert_Importance,Min_Cost,Mean_Cost,Max_Cost
+Fan Coil Unit GF-01,brick:HVAC_System,0.85,Yes,High,9,85,177.5,520
+Fan Coil Unit GF-03,brick:HVAC_System,0.85,Yes,High,9,85,177.5,520
+Fan Coil Unit 1F-01,brick:HVAC_System,0.85,Yes,High,9,85,177.5,520
+Fan Coil Unit 1F-02,brick:HVAC_System,0.85,Yes,High,9,85,177.5,520
+Fan Coil Unit 2F-01,brick:HVAC_System,0.85,Yes,High,9,85,177.5,520
+Fan Coil Unit 2F-12,brick:HVAC_System,0.85,Yes,High,9,85,177.5,520
+Fan Coil Unit 3F-01,brick:HVAC_System,0.85,Yes,High,9,85,177.5,520
+Fan Coil Unit 3F-02,brick:HVAC_System,0.85,Yes,High,9,85,177.5,520
+Fan Coil Unit 4F-01,brick:HVAC_System,0.85,Yes,High,9,85,177.5,520
+Fan Coil Unit 4F-02,brick:HVAC_System,0.85,Yes,High,9,85,177.5,520
