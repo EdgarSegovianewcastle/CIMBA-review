@@ -1,12 +1,12 @@
 """
 migrate_temperature.py
-Unifica los CSVs mensuales de temperatura de un FCU/AHU descargados de Demand Logic
-y los carga a MongoDB Atlas en la colección `operational_temperature`.
+Unifies the monthly temperature CSVs of a FCU/AHU downloaded from Demand Logic
+and loads them into MongoDB Atlas in the `operational_temperature` collection.
 
-Uso:
-    python migrate_temperature.py <asset_id> <carpeta_con_csvs>
+Usage:
+    python migrate_temperature.py <asset_id> <folder_with_csvs>
 
-Ejemplo:
+Example:
     python migrate_temperature.py FCU_01_01 temepratura1
 """
 
@@ -21,7 +21,7 @@ MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017/")
 DB_NAME = "cimba_db"
 COLLECTION = "operational_temperature"
 
-CSV_METADATA_ROWS = 6  # 5 líneas key:value + 1 fila de URLs antes de los headers
+CSV_METADATA_ROWS = 6  # 5 key:value lines + 1 URL row before the headers.
 
 COLUMN_MAP = {
     "Control Temperature": "control_temp",
@@ -35,7 +35,7 @@ COLUMN_MAP = {
 
 
 def detect_prefix(columns):
-    """Detecta el prefijo del nombre de columna (p.ej. 'FCU 01/01 ')."""
+    """Detect the column-name prefix (e.g. 'FCU 01/01 ')."""
     for c in columns:
         if c == "Period":
             continue
@@ -55,10 +55,10 @@ def clean_column(col, prefix):
 def unify(folder, asset_id, output_csv):
     files = sorted(glob.glob(os.path.join(folder, "*.csv")))
     if not files:
-        print(f"[ERROR] No se encontraron CSVs en {folder}")
+        print(f"[ERROR] No CSVs found in {folder}")
         return None
 
-    print(f"[INFO] {len(files)} archivos a unificar:")
+    print(f"[INFO] {len(files)} files to merge:")
     for f in files:
         print(f"  - {os.path.basename(f)}")
 
@@ -81,15 +81,15 @@ def unify(folder, asset_id, output_csv):
         if c != "Period":
             df[c] = pd.to_numeric(df[c], errors="coerce")
 
-    print(f"\n[INFO] Unificado: {len(df)} filas (deduplicadas: {deduped})")
-    print(f"       Rango: {df['Period'].min()} -> {df['Period'].max()}")
-    print(f"       Columnas: {[c for c in df.columns if c != 'Period']}")
+    print(f"\n[INFO] Merged: {len(df)} rows (deduplicated: {deduped})")
+    print(f"       Range: {df['Period'].min()} -> {df['Period'].max()}")
+    print(f"       Columns: {[c for c in df.columns if c != 'Period']}")
 
     os.makedirs(os.path.dirname(output_csv), exist_ok=True)
     df_out = df.copy()
     df_out.insert(1, "asset_id", asset_id)
     df_out.to_csv(output_csv, index=False)
-    print(f"[OK] CSV unificado escrito: {output_csv}")
+    print(f"[OK] Unified CSV written: {output_csv}")
 
     return df
 
@@ -100,7 +100,7 @@ def load_mongo(df, asset_id):
     col = db[COLLECTION]
 
     deleted = col.delete_many({"asset_id": asset_id}).deleted_count
-    print(f"\n[INFO] Borrados {deleted} docs previos de {asset_id} en '{COLLECTION}'")
+    print(f"\n[INFO] Deleted {deleted} previous docs for {asset_id} in '{COLLECTION}'")
 
     records = []
     for _, row in df.iterrows():
@@ -116,8 +116,8 @@ def load_mongo(df, asset_id):
         col.insert_many(records)
         col.create_index([("asset_id", 1), ("Period", 1)])
 
-    print(f"[OK] Insertados {len(records)} docs en '{COLLECTION}' para {asset_id}")
-    print(f"     Índice (asset_id, Period) garantizado")
+    print(f"[OK] Inserted {len(records)} docs in '{COLLECTION}' for {asset_id}")
+    print(f"     Index (asset_id, Period) ensured")
 
 
 def main():

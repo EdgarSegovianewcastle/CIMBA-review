@@ -2,8 +2,8 @@ import pandas as pd
 from pymongo import MongoClient
 import os
 
-# Lee MONGO_URI de la env var; si no esta seteada, usa localhost.
-# Para que los scripts apunten a Atlas, exportar:
+# Read MONGO_URI from the env var; fall back to localhost when not set.
+# To point the scripts at Atlas, export:
 #   export MONGO_URI='mongodb+srv://...'  (Linux/Mac)
 #   $env:MONGO_URI = '...'                (PowerShell)
 MONGO_URI = os.getenv("MONGO_URI", "mongodb://localhost:27017/")
@@ -29,13 +29,14 @@ def get_operational_asset_data(asset_id):
       - Date          (datetime.date)
       - kWh           (float, daily energy total)
       - control_temp  (float or NaN; daily mean indoor temp for FCU/AHU,
-                       NaN para Pumps porque no tienen sensor de temperatura indoor)
+                       NaN for Pumps since they have no indoor temperature sensor)
 
-    Para hvac_energy (FCU/AHU): kWh = heating_kWh + cooling_kWh + fan_kWh
-    Para pump_energy (Pumps):   kWh = campo `kWh` del doc
+    For hvac_energy (FCU/AHU): kWh = heating_kWh + cooling_kWh + fan_kWh
+    For pump_energy (Pumps):   kWh = the `kWh` field on the doc
 
-    Incluye datos reales Y sinteticos (con `is_synthetic=true`) sin distincion;
-    el flag se preserva en Mongo pero la baseline trata ambos por igual.
+    Includes both real AND synthetic data (with `is_synthetic=true`) without
+    distinguishing; the flag is preserved in Mongo but the baseline treats them
+    equally.
     """
     db = get_db()
     rows = list(db.operational_data.find({"asset_id": asset_id}, {"_id": 0}))
@@ -57,7 +58,7 @@ def get_operational_asset_data(asset_id):
     else:
         df["kWh"] = pd.to_numeric(df.get("kWh", 0.0), errors="coerce").fillna(0.0)
 
-    # Temperatura indoor (solo FCU/AHU; agregada al vuelo desde operational_temperature)
+    # Indoor temperature (FCU/AHU only; aggregated on the fly from operational_temperature).
     if asset_type == "hvac_energy":
         pipe = [
             {"$match": {"asset_id": asset_id, "control_temp": {"$ne": None}}},

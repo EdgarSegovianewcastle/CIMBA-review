@@ -1,27 +1,29 @@
 """
 load_daily_temperatures.py
 
-Carga a Mongo las temperaturas DIARIAS (mean/max/min) preprocesadas desde
-temperatura2/PREPROCESADOS/. Schema simple: 1 doc por (asset_id, fecha).
+Loads pre-processed DAILY temperatures (mean/max/min) from
+temperatura2/PREPROCESADOS/ into MongoDB. Simple schema: 1 doc per
+(asset_id, date).
 
-Schema de doc:
+Doc schema:
   {
     asset_id: "FCU_05_01",
-    Period:   ISODate("2025-01-01"),  # midday para evitar timezone glitches
-    control_temp:     20.72,   # = mean (mantiene nombre por compat con endpoints)
+    Period:   ISODate("2025-01-01"),  # midday, to avoid timezone glitches
+    control_temp:     20.72,   # = mean (name kept for compatibility with endpoints)
     control_temp_max: 22.60,
     control_temp_min: 19.31,
     granularity: "daily"
   }
 
-Compatibilidad con codigo existente:
-  - /api/temperature/{asset_id}: hace $avg sobre control_temp -> con 1 doc/dia
-    devuelve ese unico valor. Funciona sin cambios.
-  - cimba_mongo.get_operational_asset_data: igual, usa $avg.
-  - S3: no necesita cambios.
+Compatibility with existing code:
+  - /api/temperature/{asset_id}: does $avg over control_temp. With 1 doc/day
+    it returns that single value. Works without changes.
+  - cimba_mongo.get_operational_asset_data: same, uses $avg.
+  - S3: no changes needed.
 
-FCU usa columna "<asset_name> Control Temperature_*" (la unica del preprocesado).
-AHU usa "<asset_name> Supply Control Temperature_*" (zona Supply = aire indoor).
+FCU uses the column "<asset_name> Control Temperature_*" (the only one in the
+pre-processed file). AHU uses "<asset_name> Supply Control Temperature_*"
+(Supply zone = indoor air).
 """
 
 import argparse
@@ -52,7 +54,7 @@ def detect_asset_type(asset_id):
 
 
 def find_columns(df, asset_type):
-    """Devuelve (col_mean, col_max, col_min) usados para control_temp."""
+    """Return (col_mean, col_max, col_min) used for control_temp."""
     if asset_type == "FCU":
         target = "Control Temperature"
     else:
@@ -70,19 +72,19 @@ def load_one_asset(path, db):
     asset_id = asset_id_from_filename(path)
     atype = detect_asset_type(asset_id)
     if atype is None:
-        print(f"  [SKIP] {asset_id}: tipo desconocido")
+        print(f"  [SKIP] {asset_id}: unknown type")
         return 0
 
     df = pd.read_csv(path)
     col_mean, col_max, col_min = find_columns(df, atype)
     if not col_mean:
-        print(f"  [SKIP] {asset_id}: columna control_temp_mean no encontrada")
+        print(f"  [SKIP] {asset_id}: control_temp_mean column not found")
         return 0
 
     df["Date"] = pd.to_datetime(df["Date"], errors="coerce")
     df = df.dropna(subset=["Date", col_mean])
 
-    # Schema: Period a las 12:00 para alinear con queries DIA = grupo
+    # Schema: Period at 12:00 to align with DAY = group queries.
     docs = []
     for _, row in df.iterrows():
         period = row["Date"].replace(hour=12, minute=0, second=0, microsecond=0).to_pydatetime()
@@ -106,23 +108,23 @@ def main(argv):
     parser = argparse.ArgumentParser()
     parser.add_argument("--folder", default="temperatura2/PREPROCESADOS")
     parser.add_argument("--purge-all", action="store_true",
-                        help="Borrar TODA la coleccion operational_temperature antes de cargar")
+                        help="Delete the WHOLE operational_temperature collection before loading")
     args = parser.parse_args(argv[1:])
 
     folder = args.folder
     if not os.path.isdir(folder):
-        print(f"[ERROR] folder no existe: {folder}")
+        print(f"[ERROR] folder does not exist: {folder}")
         sys.exit(1)
 
     db = MongoClient(MONGO_URI, serverSelectionTimeoutMS=10000)[DB_NAME]
 
     if args.purge_all:
         n = db[COLLECTION].delete_many({}).deleted_count
-        print(f"[PURGE] {n} docs borrados de {COLLECTION}")
+        print(f"[PURGE] {n} docs deleted from {COLLECTION}")
         print()
 
     files = sorted(f for f in os.listdir(folder) if f.endswith("_Diario.csv"))
-    print(f"[INFO] {len(files)} archivos en {folder}")
+    print(f"[INFO] {len(files)} files in {folder}")
 
     total = 0
     for f in files:
@@ -132,16 +134,16 @@ def main(argv):
     db[COLLECTION].create_index([("asset_id", 1), ("Period", 1)])
 
     print()
-    print(f"[OK] total docs insertados: {total}")
+    print(f"[OK] total docs inserted: {total}")
     print()
-    print("[INFO] resumen final por asset:")
+    print("[INFO] final summary per asset:")
     pipeline = [{"$group": {"_id": "$asset_id", "n": {"$sum": 1}}}, {"$sort": {"_id": 1}}]
     for d in db[COLLECTION].aggregate(pipeline):
         print(f"  {d['_id']:14s} {d['n']:>5d} docs")
 
     stats = db.command("collStats", COLLECTION)
     print()
-    print(f"[INFO] tamano coleccion: {stats['size'] / 1024 / 1024:.2f} MB")
+    print(f"[INFO] collection size: {stats['size'] / 1024 / 1024:.2f} MB")
 
 
 if __name__ == "__main__":

@@ -1,33 +1,33 @@
 """
-S4 — Degradation Trajectory & RUL prediction — DAILY, LINEAR-OBSERVED-RATE
+S4: Degradation Trajectory & RUL prediction (DAILY, LINEAR-OBSERVED-RATE)
 CIMBA Predictive Maintenance Framework
 
-Logica de proyeccion (revisada 2026-04-27):
-  observed_rate = (100 - AHI_actual) / (Total_Years_in_Operation * 365.25)
-  trayectoria   = proyeccion lineal a observed_rate hacia el futuro
-  parada        = AHI <= 5  OR  dias_simulados >= CIBSE_Life * 365 (safeguard)
+Projection logic (revised 2026-04-27):
+  observed_rate = (100 - AHI_current) / (Total_Years_in_Operation * 365.25)
+  trajectory    = linear projection at observed_rate into the future
+  stop          = AHI <= 5  OR  simulated_days >= CIBSE_Life * 365 (safeguard)
 
-Por que LINEAR y no la prediccion del modelo:
-  - El target en S5 (Daily_Degradation) se construyo distribuyendo
-    (100 - AHI) sobre los ~480 dias del histórico de Demandlogic, pero la
-    realidad es que esos puntos de degradacion se acumularon en TODA la
-    vida operativa del activo (5 anios = 1825 dias). El modelo aprende
-    una tasa que es ~3-4x mas alta que la realidad, lo que produce
-    proyecciones demasiado pesimistas (1-3 anios donde CIBSE espera 11-17).
-  - Ademas la feature Cumulative_Power_Consumed crea positive feedback:
-    en el futuro crece sin limite y el modelo predice rates aceleradas.
-  - Hasta que tengamos AHI time-series real (multiples lecturas de
-    maintenance), la proyeccion HONESTA es lineal del rate observado.
+Why LINEAR rather than the model's prediction:
+  - The target in S5 (Daily_Degradation) was built by spreading
+    (100 - AHI) over the ~480 days of Demandlogic history, but in reality
+    those degradation points accumulated over the asset's WHOLE operating
+    life (5 years = 1825 days). The model learns a rate ~3-4x higher than
+    reality, which produces over-pessimistic projections (1 to 3 years
+    where CIBSE expects 11 to 17).
+  - The Cumulative_Power_Consumed feature also creates positive feedback:
+    it grows unbounded in the future and the model predicts accelerating rates.
+  - Until we have a real AHI time series (multiple maintenance readings),
+    the HONEST projection is linear at the observed rate.
 
-El modelo del registry SIGUE cargandose para guardar model_id en el
-doc (trazabilidad arquitectural) pero NO se usa en el forecast.
+The registry model IS still loaded so we can store model_id on each doc
+(architectural traceability) but it is NOT used in the forecast.
 
-Comparacion en db.degradation_summary:
-  observed_daily_rate   <- (100 - AHI) / dias_operando
+Comparison stored in db.degradation_summary:
+  observed_daily_rate   <- (100 - AHI) / days_operating
   cibse_daily_rate      <- 95 / CIBSE_Life / 365
-  years_to_95_observed  <- proyeccion al rate real (lo que devolvemos)
-  years_to_95_cibse     <- expected segun la spec del fabricante (95 / cibse_rate / 365)
-  delta_years           <- diferencia (negativo = degrada mas rapido que spec)
+  years_to_95_observed  <- projection at the real rate (what we return)
+  years_to_95_cibse     <- expected by manufacturer spec (95 / cibse_rate / 365)
+  delta_years           <- difference (negative means degrades faster than spec)
 
 Reads (Mongo):  model_registry, health_indexes, assets, climate_data, operational_data
 Writes (Mongo): degradation_trajectories, degradation_summary
@@ -46,19 +46,19 @@ import cimba_mongo as mongo
 import cimba_paths as paths
 
 ROLL = 7
-TARGET_DEG = 95.0       # detener al alcanzar 95% degradacion (AHI = 5)
-DEFAULT_CIBSE_LIFE = 20  # fallback si el asset no tiene el campo
+TARGET_DEG = 95.0       # Stop when reaching 95% degradation (AHI = 5).
+DEFAULT_CIBSE_LIFE = 20  # Fallback when the asset has no value for this field.
 
 
 def load_models(db):
-    """Indexa los modelos del registry por asset_type. Carga del disco primero,
-    fallback a db.model_files (Render filesystem es efimero, asi que despues de
-    reboot el .pkl en disco no existe pero los bytes en Mongo si).
+    """Index registry models by asset_type. Load from disk first, fall back to
+    db.model_files (Render's filesystem is ephemeral, so after a reboot the .pkl
+    on disk no longer exists but the bytes in Mongo do).
 
-    Cuando hay varios modelos por asset_type (e.g. v1 y v2), elige el de version
-    mas alta. Esto permite mantener versiones previas en el registry para auditoria
-    sin que S4 las use."""
-    # Sort por version desc para que la primera entry de cada asset_type sea la mas reciente
+    When there are several models per asset_type (e.g. v1 and v2), pick the
+    highest version. This keeps previous versions in the registry for audit
+    without S4 actually using them."""
+    # Sort by version desc so the first entry per asset_type is the most recent.
     docs = list(db.model_registry.find({}, {"_id": 0}).sort("version", -1))
     models = {}
     for d in docs:
@@ -67,22 +67,22 @@ def load_models(db):
         if not atype:
             continue
         if atype in models:
-            # Ya tenemos un modelo mas reciente para este tipo
+            # We already have a more recent model for this type.
             continue
 
         model = None
         source = None
 
-        # Intento 1: disco
+        # Attempt 1: disk.
         path = d.get("model_file")
         if path and os.path.exists(path):
             try:
                 model = joblib.load(path)
                 source = f"disk ({os.path.basename(path)})"
             except Exception as e:
-                print(f"  [WARN] {atype}: error cargando del disco: {e}")
+                print(f"  [WARN] {atype}: error loading from disk: {e}")
 
-        # Intento 2: Mongo db.model_files
+        # Attempt 2: Mongo db.model_files.
         if model is None and model_id:
             file_doc = db.model_files.find_one({"model_id": model_id})
             if file_doc and file_doc.get("bytes"):
@@ -90,10 +90,10 @@ def load_models(db):
                     model = joblib.load(io.BytesIO(file_doc["bytes"]))
                     source = f"mongo db.model_files ({file_doc.get('size_bytes', 0)/1024/1024:.1f} MB)"
                 except Exception as e:
-                    print(f"  [ERROR] {atype}: cargando desde Mongo: {e}")
+                    print(f"  [ERROR] {atype}: loading from Mongo: {e}")
 
         if model is None:
-            print(f"  [WARN] {atype}: NO se pudo cargar el modelo (disco ni Mongo)")
+            print(f"  [WARN] {atype}: could not load model (disk nor Mongo)")
             continue
 
         models[atype] = {
@@ -125,7 +125,7 @@ def get_climate(d, lookup, max_date, fallback=12.0):
     if d in lookup:
         return lookup[d]
     if max_date and d > max_date:
-        # Wrap a la misma fecha en un anio anterior dentro del dataset
+        # Wrap to the same date in a previous year inside the dataset.
         for back in range(1, 11):
             try:
                 wrap = d.replace(year=d.year - back)
@@ -137,7 +137,7 @@ def get_climate(d, lookup, max_date, fallback=12.0):
 
 
 def build_historical_features(asset_id, asset_type, climate_lookup, max_climate, asset_meta):
-    """Replica la logica de S5.build_training_data, sin target."""
+    """Mirror S5.build_training_data, without the target."""
     hist = mongo.get_operational_asset_data(asset_id)
     if hist.empty:
         return None
@@ -165,10 +165,10 @@ def build_historical_features(asset_id, asset_type, climate_lookup, max_climate,
 
 def project_trajectory(asset_id, asset_type, model_info, ahi_current,
                        total_years_in_operation, cibse_life):
-    """Proyeccion LINEAL al observed_rate. Devuelve (trayectoria, safeguard, observed_rate, cibse_rate)."""
+    """Linear projection at observed_rate. Returns (trajectory, safeguard, observed_rate, cibse_rate)."""
     cum_deg_start = max(0.0, 100.0 - float(ahi_current))
     if cum_deg_start >= TARGET_DEG:
-        print(f"    [INFO] {asset_id}: AHI ya <= {100-TARGET_DEG}, no hay nada que proyectar")
+        print(f"    [INFO] {asset_id}: AHI already <= {100-TARGET_DEG}, nothing to project")
         return [], False, 0.0, 0.0
 
     days_operating_so_far = max(1.0, float(total_years_in_operation) * 365.25)
@@ -202,7 +202,7 @@ def project_trajectory(asset_id, asset_type, model_info, ahi_current,
 
 def run_s4():
     print("\n" + "=" * 80)
-    print("  S4 — DEGRADATION TRAJECTORY (DAILY, UNTIL 95% OR CIBSE_LIFE)")
+    print("  S4: DEGRADATION TRAJECTORY (DAILY, UNTIL 95% OR CIBSE_LIFE)")
     print("=" * 80)
     paths.ensure_directories()
 
@@ -211,7 +211,7 @@ def run_s4():
     print("\n[STEP 1] Loading models from registry...")
     models = load_models(db)
     if not models:
-        print("[ERROR] No hay modelos. Re-correr S5 primero.")
+        print("[ERROR] No models available. Run S5 first.")
         sys.exit(1)
 
     print("\n[STEP 2] Loading climate lookup...")
@@ -221,7 +221,7 @@ def run_s4():
     print("\n[STEP 3] Loading AHI + assets...")
     ahi_df = mongo.read_collection("health_indexes")
     if ahi_df.empty:
-        print("[ERROR] health_indexes empty. Re-correr S2.")
+        print("[ERROR] health_indexes empty. Run S2 again.")
         sys.exit(1)
     ahi_lookup = {row["asset_id"]: row.get("AHI (%)") for _, row in ahi_df.iterrows()}
 
@@ -242,18 +242,18 @@ def run_s4():
         aid = a["asset_id"]
         atype = a.get("asset_type")
         if atype not in models:
-            print(f"  [SKIP] {aid}: no hay modelo para tipo '{atype}'")
+            print(f"  [SKIP] {aid}: no model for type '{atype}'")
             continue
 
         ahi = ahi_lookup.get(aid)
         if ahi is None:
-            print(f"  [SKIP] {aid}: sin AHI en health_indexes")
+            print(f"  [SKIP] {aid}: no AHI in health_indexes")
             continue
 
         cibse_life = float(a.get("CIBSE Life Expectancy") or DEFAULT_CIBSE_LIFE)
         years_in_op = float(a.get("Total Years in Operation") or 0)
         if years_in_op <= 0:
-            print(f"  [SKIP] {aid}: Total Years in Operation invalido ({years_in_op})")
+            print(f"  [SKIP] {aid}: Total Years in Operation invalid ({years_in_op})")
             continue
 
         traj, safeguard, observed_rate, cibse_rate = project_trajectory(
@@ -265,7 +265,7 @@ def run_s4():
         for t in traj:
             t["predicted_at"] = predicted_at
 
-        # Insert in chunks (Mongo limit ~16MB per request)
+        # Insert in chunks (Mongo limit ~16MB per request).
         BATCH = 5000
         for i in range(0, len(traj), BATCH):
             db.degradation_trajectories.insert_many(traj[i:i + BATCH])

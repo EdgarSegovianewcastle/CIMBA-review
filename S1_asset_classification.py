@@ -1,5 +1,5 @@
 """
-S1 — Asset Classification
+S1: Asset Classification
 CIMBA Predictive Maintenance Framework
 
 Reads:  database/assets/asset_register.csv
@@ -91,7 +91,7 @@ def calc_criticality(freq, cost, imp):
     return min(s, 100)
 
 def run_s1():
-    print("\n" + "="*80 + "\nS1 — ASSET CLASSIFICATION (MONGO MODE)\n" + "="*80)
+    print("\n" + "="*80 + "\nS1: ASSET CLASSIFICATION (MONGO MODE)\n" + "="*80)
     paths.ensure_directories()
     print("\n[1] Loading data...")
     df, col = load_register(); costs = load_costs()

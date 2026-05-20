@@ -1,28 +1,28 @@
 """
-S5 — AI Training (Random Forest) — DAILY MODE, PER-TYPE, PER-FEATURE-SET
+S5: AI Training (Random Forest), DAILY MODE, PER-TYPE, PER-FEATURE-SET
 CIMBA Predictive Maintenance Framework
 
-Entrena UN Random Forest POR TIPO de activo (FCU, AHU, Pump) con un set
-de features ESPECIFICO para cada tipo. La degradacion fisica varia por
-tipo (potencia, schedules, mecanismos de desgaste) y los inputs disponibles
-tambien (Pumps tienen flow estimable pero NO temperatura indoor).
+Trains ONE Random Forest PER asset TYPE (FCU, AHU, Pump) with a feature set
+SPECIFIC to each type. The physical degradation varies by type (power,
+schedules, wear mechanisms) and so do the available inputs (Pumps have
+estimable flow but NO indoor temperature).
 
 Feature sets:
-  FCU/AHU: 5 features genericas (potencia y clima externo)
-  Pump:    8 features (las 5 + 3 derivadas de flow estimado por afinidad)
+  FCU/AHU: 5 generic features (power and external climate)
+  Pump:    8 features (the 5 + 3 derived from flow estimated by affinity laws)
 
-Splits default (overridables por env vars):
+Default splits (overridable via env vars):
   FCU:  8 train + 3 val   (S5_FCU_VAL_IDS)
   AHU:  3 train + 0 val   (S5_AHU_VAL_IDS)
   Pump: 7 train + 0 val   (S5_PUMP_VAL_IDS)
 
 Outputs:
   - database/models/rf_model_{FCU|AHU|Pump}.pkl
-  - db.model_registry: 3 docs, uno por tipo, con metadata completa:
+  - db.model_registry: 3 docs, one per type, with full metadata:
       model_id, version, asset_type, trained_on_asset_ids,
-      applicable_filter, applies_to_asset_ids, features, metricas, etc.
-  - db.training_matrix: features + target de los assets de train
-  - db.train_val_split: 21 docs con asset_id + asset_type + role
+      applicable_filter, applies_to_asset_ids, features, metrics, etc.
+  - db.training_matrix: features + target for the assets in the train split
+  - db.train_val_split: 21 docs with asset_id + asset_type + role
 """
 
 import io
@@ -60,11 +60,11 @@ GENERIC_FEATS = [
 
 
 def enrich_registry_metadata(trained_on_asset_ids, asset_type, version, db):
-    """Calcula metadata derivada de los assets que entrenaron el modelo.
+    """Compute metadata derived from the assets that trained the model.
 
-    Devuelve un dict listo para mergear al registry_entry. Permite que en
-    el futuro el dashboard / la logica de seleccion elija el mejor modelo
-    para un asset concreto matcheando manufacturer, building, etc.
+    Returns a dict ready to merge into the registry entry. This lets the
+    dashboard / selection logic later pick the best model for a specific
+    asset by matching manufacturer, building, etc.
     """
     docs = list(db.assets.find(
         {"asset_id": {"$in": trained_on_asset_ids}},
@@ -86,8 +86,8 @@ def enrich_registry_metadata(trained_on_asset_ids, asset_type, version, db):
     powers = [d.get("rated_power_kW") for d in docs if d.get("rated_power_kW") is not None]
     years = [d.get("install_year") for d in docs if d.get("install_year") is not None]
 
-    mfr_label = ", ".join(f"{k}×{v}" for k, v in sorted(manufacturers.items(), key=lambda x: -x[1]))
-    display_name = f"{asset_type} RF v{version} — {mfr_label}" if mfr_label else f"{asset_type} RF v{version}"
+    mfr_label = ", ".join(f"{k}x{v}" for k, v in sorted(manufacturers.items(), key=lambda x: -x[1]))
+    display_name = f"{asset_type} RF v{version}, {mfr_label}" if mfr_label else f"{asset_type} RF v{version}"
 
     return {
         "display_name":              display_name,
@@ -106,9 +106,9 @@ INDOOR_TEMP_FEATS = [
     "Daily_Delta_Indoor_Outdoor",
 ]
 
-# Feature set por tipo:
-#   - FCU/AHU: GENERIC + 3 indoor temp (control_temp) -> 8 features
-#   - Pump:    GENERIC + 3 flow (afinidad cubica)     -> 8 features (sin temp indoor)
+# Feature set per type:
+#   - FCU/AHU: GENERIC + 3 indoor temp (control_temp)   -> 8 features
+#   - Pump:    GENERIC + 3 flow features (affinity law) -> 8 features (no indoor temp)
 FEATS_PER_TYPE = {
     "FCU":  GENERIC_FEATS + INDOOR_TEMP_FEATS,
     "AHU":  GENERIC_FEATS + INDOOR_TEMP_FEATS,
@@ -123,7 +123,7 @@ DEFAULT_VAL_IDS = {
     "Pump": [],
 }
 
-MODEL_VERSION = 2  # v2: FCU/AHU agregan 3 features de temperatura indoor (mean/range/delta)
+MODEL_VERSION = 2  # v2: FCU/AHU add 3 indoor temperature features (mean/range/delta).
 
 
 def load_climate_daily(db):
@@ -139,7 +139,7 @@ def load_climate_daily(db):
 
 
 def _load_indoor_temp_daily(db, asset_id):
-    """Devuelve DataFrame con Date + control_temp/_max/_min agregado por dia."""
+    """Return a DataFrame with Date + control_temp/_max/_min aggregated per day."""
     pipe = [
         {"$match": {"asset_id": asset_id, "control_temp": {"$ne": None}}},
         {"$group": {
@@ -175,7 +175,7 @@ def build_training_data(asset_id, asset_type, ahi_value, climate_daily, asset_me
     df["Rolling_7D_Power"] = df["Daily_Fan_Power_Sum"].rolling(ROLL, min_periods=1).mean()
     df["Power_Lag_1"] = df["Daily_Fan_Power_Sum"].shift(1).bfill()
 
-    # Features especificas de Pump (flow por afinidad cubica)
+    # Pump-specific features (flow derived from a cubic affinity law).
     if asset_type == "Pump":
         q_max = asset_meta.get("nominal_flow_m3h") if asset_meta else None
         p_max = asset_meta.get("rated_power_kW") if asset_meta else None
@@ -188,7 +188,7 @@ def build_training_data(asset_id, asset_type, ahi_value, climate_daily, asset_me
         df["Cumulative_Flow"] = df["Daily_Flow_m3h_est"].cumsum()
         df["Rolling_7D_Flow"] = df["Daily_Flow_m3h_est"].rolling(ROLL, min_periods=1).mean()
 
-    # Features especificas FCU/AHU (temperatura indoor)
+    # FCU/AHU-specific features (indoor temperature).
     if asset_type in ("FCU", "AHU"):
         temp_df = _load_indoor_temp_daily(mongo.get_db(), asset_id)
         df = df.merge(temp_df, on="Date", how="left")
@@ -197,7 +197,7 @@ def build_training_data(asset_id, asset_type, ahi_value, climate_daily, asset_me
         df["Daily_Delta_Indoor_Outdoor"]  = (df["temp_mean"] - df["External_Mean_Temp"])
         df = df.drop(columns=["temp_mean", "temp_max", "temp_min"], errors="ignore")
 
-    # Target
+    # Target.
     total_deg = max(0.0, 100.0 - float(ahi_value))
     df["EF"] = np.exp(ACCEL * df["Days"])
     df["DW"] = df["Daily_Fan_Power_Sum"] * df["EF"]
@@ -233,10 +233,10 @@ def train_one_model(asset_type, train_data, model_path, feats, model_id, db):
     mae = mean_absolute_error(yte, pred)
     r2 = r2_score(yte, pred)
 
-    # Save al disco (rapido para local + cuando S4 corre justo despues en Render)
+    # Save to disk (fast for local + when S4 runs right after on Render).
     joblib.dump(model, model_path)
 
-    # Save bytes a Mongo (para Render despues de reboot — filesystem efimero)
+    # Save bytes to Mongo (for Render after a reboot, since the filesystem is ephemeral).
     buffer = io.BytesIO()
     joblib.dump(model, buffer)
     buffer.seek(0)
@@ -275,12 +275,12 @@ def cleanup_legacy_model():
     legacy = paths.s5_model_file("HVAC_System")
     if os.path.exists(legacy):
         os.remove(legacy)
-        print(f"  [CLEANUP] Borrado modelo legacy: {legacy}")
+        print(f"  [CLEANUP] Removed legacy model: {legacy}")
 
 
 def run_s5():
     print("\n" + "=" * 80)
-    print("  S5 — AI TRAINING (PER-TYPE, PER-FEATURE-SET)")
+    print("  S5: AI TRAINING (PER-TYPE, PER-FEATURE-SET)")
     print("=" * 80)
     paths.ensure_directories()
     cleanup_legacy_model()
@@ -290,7 +290,7 @@ def run_s5():
     print("\n[STEP 1] Loading reference data...")
     ahi_df = mongo.read_collection("health_indexes")
     if ahi_df.empty or "asset_id" not in ahi_df.columns:
-        print("[ERROR] health_indexes vacia o sin asset_id. Re-correr S2.")
+        print("[ERROR] health_indexes empty or without asset_id. Run S2 again.")
         sys.exit(1)
     ahi_lookup = {row["asset_id"]: row.get("AHI (%)", row.get("ahi", 100)) for _, row in ahi_df.iterrows()}
     climate = load_climate_daily(db)
@@ -338,7 +338,7 @@ def run_s5():
             all_split_records.append({"asset_id": aid, "asset_type": atype, "role": "validation"})
 
         if not train_ids:
-            print(f"\n  [{atype}] sin train ids, skip")
+            print(f"\n  [{atype}] no train ids, skip")
             continue
 
         train_data = [data[a] for a in train_ids]
@@ -346,7 +346,7 @@ def run_s5():
         model_id = f"rf_{atype.lower()}_v{MODEL_VERSION}"
         metrics = train_one_model(atype, train_data, model_path, feats, model_id, db)
 
-        # Lista de assets actuales que matchean el filtro (a quien aplica el modelo)
+        # Current assets that match the filter (the assets the model applies to).
         applies_ids = sorted([a["asset_id"] for a in assets_full if a.get("asset_type") == atype])
 
         registry_entry = {
@@ -372,17 +372,17 @@ def run_s5():
             all_train_matrices.append(df_a)
 
     if not all_registry:
-        print("[ERROR] No se entreno ningun modelo")
+        print("[ERROR] No model was trained")
         sys.exit(1)
 
-    # Persistencia
+    # Persistence.
     split_df = pd.DataFrame(all_split_records)
     mongo.write_collection("train_val_split", split_df)
     split_df.to_csv(os.path.join(paths.MODELS_DIR, "train_val_split.csv"), index=False)
 
     reg_df = pd.DataFrame(all_registry)
-    # Upsert por model_id: preserva versiones previas (v1, v2, ...) en el registry.
-    # Re-correr con MODEL_VERSION existente sobreescribe esa entry; bumpear version anade nueva.
+    # Upsert by model_id: preserves previous versions (v1, v2, ...) in the registry.
+    # Re-running with the same MODEL_VERSION overwrites that entry; bumping the version adds a new one.
     db_registry = mongo.get_db().model_registry
     for entry in all_registry:
         db_registry.update_one(
@@ -390,7 +390,7 @@ def run_s5():
             {"$set": entry},
             upsert=True,
         )
-    print(f"  [MONGO] Upserted {len(all_registry)} entries en 'model_registry' (preserva versiones previas)")
+    print(f"  [MONGO] Upserted {len(all_registry)} entries into 'model_registry' (previous versions preserved)")
     reg_df_csv = reg_df.copy()
     for c in ["features", "trained_on_asset_ids", "validation_asset_ids", "applies_to_asset_ids", "applicable_filter", "feature_importances"]:
         if c in reg_df_csv.columns:
@@ -404,7 +404,7 @@ def run_s5():
     matrix.to_csv(paths.S5_TRAINING_MATRIX, index=False)
 
     print("\n" + "=" * 80)
-    print("  RESUMEN")
+    print("  SUMMARY")
     print("=" * 80)
     for r in all_registry:
         print(f"  {r['asset_type']:5s} v{r['version']}: R^2={r['r2']:.4f}  feats={len(r['features'])}  train={r['n_train_samples']}  test={r['n_test_samples']}")

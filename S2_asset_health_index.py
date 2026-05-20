@@ -1,5 +1,5 @@
 """
-S2 — Asset Health Index Calculation
+S2: Asset Health Index Calculation
 CIMBA Predictive Maintenance Framework
 
 Reads:  database/assets/condition_report.csv
@@ -48,7 +48,7 @@ def cat(a):
     return "Critical"
 
 def run_s2():
-    print("\n"+"="*80+"\nS2 — ASSET HEALTH INDEX (MONGO MODE)\n"+"="*80)
+    print("\n"+"="*80+"\nS2: ASSET HEALTH INDEX (MONGO MODE)\n"+"="*80)
     paths.ensure_directories()
     print("\n[STEP 1] Loading data...")
     df = load_data(); df.columns = df.columns.astype(str).str.strip()
@@ -85,7 +85,7 @@ def run_s2():
     pd.set_option("display.width",120); pd.set_option("display.max_columns",None)
     print(df[disp].to_string(index=False))
     
-    # Incluir asset_id para que el frontend pueda matchear (busca por asset_id, no por nombre)
+    # Include asset_id so the frontend can match by id rather than by name.
     out = ["asset_id",COL_NAME,COL_YEARS,COL_LIFE,"Rating_Numeric","AHI (%)","Health_Category","Estimated_RUL (Years)","Brick_Class"]
     out = [c for c in out if c in df.columns]
     

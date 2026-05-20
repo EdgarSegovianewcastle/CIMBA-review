@@ -1,10 +1,10 @@
 """
-cimba_paths.py — Shared Path Configuration
+cimba_paths.py: Shared Path Configuration
 CIMBA Predictive Maintenance Framework
 
 Folder structure:
     CIMBA/
-    ├── S1–S5 scripts + cimba_paths.py
+    ├── S1 to S5 scripts + cimba_paths.py
     └── database/
         ├── assets/          (registers, configs, S1/S2 outputs)
         ├── operational/     (per-asset BMS CSVs)
