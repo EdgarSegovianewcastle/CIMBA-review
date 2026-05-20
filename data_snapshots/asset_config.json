@@ -1,0 +1,338 @@
+[
+  {
+    "_id": {
+      "$oid": "69e77fa76a263fd06053a79a"
+    },
+    "asset_id": "PUMP_LTHW_2",
+    "asset_name": "LTHW Primary Pump 2",
+    "asset_type": "Pump",
+    "location": "Plant Room",
+    "demand_logic_id": "LTHW_primary_pump_2",
+    "files": {
+      "daily_energy_2025": "LTHW_primary_pump_2__Daily_energy__2025-01-01_to_2025-12-29.csv",
+      "daily_energy_2026": "LTHW_primary_pump_2__Daily_energy__2025-12-31_to_2026-03-31.csv"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69e77fa76a263fd06053a79c"
+    },
+    "asset_id": "AHU_2",
+    "asset_name": "AHU 2",
+    "asset_type": "AHU",
+    "location": "Roof",
+    "demand_logic_id": "AHU_2",
+    "files": {
+      "daily_energy_2025": "AHU_2__Daily_energy_by_attribute__2025-01-01_to_2025-12-29.csv",
+      "daily_energy_2026": "AHU_2__Daily_energy_by_attribute__2025-12-31_to_2026-03-31.csv",
+      "heatmap_fan": "AHU_2__Daily_fan_heatmap__all_history.csv",
+      "heatmap_cooling": "AHU_2__Daily_cooling_heatmap__all_history.csv",
+      "heatmap_heating": "AHU_2__Daily_heating_heatmap__all_history.csv"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69e77fa76a263fd06053a7a2"
+    },
+    "asset_id": "FCU_05_01",
+    "asset_name": "FCU 05/01",
+    "asset_type": "FCU",
+    "location": "Floor 05",
+    "demand_logic_id": "FCU 05/01",
+    "files": {
+      "daily_energy_2025": "FCU_05-01__Daily_energy__2025-01-01_to_2025-12-29.csv",
+      "daily_energy_2026": "FCU_05-01__Daily_energy__2025-12-31_to_2026-03-31.csv",
+      "heatmap_fan": "FCU_05-01__fan_heatmap__all_history.csv",
+      "heatmap_cooling": "FCU_05-01__cooling_heatmap__all_history.csv",
+      "heatmap_heating": "FCU_05-01__heating_heatmap__all_history.csv"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69e77fa76a263fd06053a7a4"
+    },
+    "asset_id": "FCU_07_01",
+    "asset_name": "FCU 07/01",
+    "asset_type": "FCU",
+    "location": "Floor 07",
+    "demand_logic_id": "FCU 07/01",
+    "files": {
+      "daily_energy_2025": "FCU_07-01__Daily_energy__2025-01-01_to_2025-12-29.csv",
+      "daily_energy_2026": "FCU_07-01__Daily_energy__2025-12-31_to_2026-03-31.csv",
+      "heatmap_fan": "FCU_07-01__fan_heatmap__all_history.csv",
+      "heatmap_cooling": "FCU_07-01__cooling_heatmap__all_history.csv",
+      "heatmap_heating": "FCU_07-01__heating_heatmap__all_history.csv"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69e77fa76a263fd06053a7a5"
+    },
+    "asset_id": "FCU_08_01",
+    "asset_name": "FCU 08/01",
+    "asset_type": "FCU",
+    "location": "Floor 08",
+    "demand_logic_id": "FCU 08/01",
+    "files": {
+      "daily_energy_2025": "FCU_08-01__Daily_energy__2025-01-01_to_2025-12-29.csv",
+      "daily_energy_2026": "FCU_08-01__Daily_energy__2025-12-31_to_2026-03-31.csv",
+      "heatmap_fan": "FCU_08-01__fan_heatmap__all_history.csv",
+      "heatmap_cooling": "FCU_08-01__cooling_heatmap__all_history.csv",
+      "heatmap_heating": "FCU_08-01__heating_heatmap__all_history.csv"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69e77fa76a263fd06053a7a6"
+    },
+    "asset_id": "FCU_09_01",
+    "asset_name": "FCU 09/01",
+    "asset_type": "FCU",
+    "location": "Floor 09",
+    "demand_logic_id": "FCU 09/01",
+    "files": {
+      "daily_energy_2025": "FCU_09-01__Daily_energy__2025-01-01_to_2025-12-29.csv",
+      "daily_energy_2026": "FCU_09-01__Daily_energy__2025-12-31_to_2026-03-31.csv",
+      "heatmap_fan": "FCU_09-01__fan_heatmap__all_history.csv",
+      "heatmap_cooling": "FCU_09-01__cooling_heatmap__all_history.csv",
+      "heatmap_heating": "FCU_09-01__heating_heatmap__all_history.csv"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69e77fa76a263fd06053a79e"
+    },
+    "asset_id": "FCU_01_01",
+    "asset_name": "FCU 01/01",
+    "asset_type": "FCU",
+    "location": "Floor 01",
+    "demand_logic_id": "FCU 01/01",
+    "files": {
+      "daily_energy_2025": "FCU_01-01__Daily_energy__2025-01-01_to_2025-12-29.csv",
+      "daily_energy_2026": "FCU_01-01__Daily_energy__2025-12-31_to_2026-03-31.csv",
+      "heatmap_fan": "FCU_01-01__fan_heatmap__all_history.csv",
+      "heatmap_cooling": "FCU_01-01__cooling_heatmap__all_history.csv",
+      "heatmap_heating": "FCU_01-01__heating_heatmap__all_history.csv"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69e77fa76a263fd06053a7a1"
+    },
+    "asset_id": "FCU_04_01",
+    "asset_name": "FCU 04/01",
+    "asset_type": "FCU",
+    "location": "Floor 04",
+    "demand_logic_id": "FCU 04/01",
+    "files": {
+      "daily_energy_2025": "FCU_04-01__Daily_energy__2025-01-01_to_2025-12-29.csv",
+      "daily_energy_2026": "FCU_04-01__Daily_energy__2025-12-31_to_2026-03-31.csv",
+      "heatmap_fan": "FCU_04-01__fan_heatmap__all_history.csv",
+      "heatmap_cooling": "FCU_04-01__cooling_heatmap__all_history.csv",
+      "heatmap_heating": "FCU_04-01__heating_heatmap__all_history.csv"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69e77fa76a263fd06053a797"
+    },
+    "asset_id": "PUMP_DHW_2",
+    "asset_name": "DHW Primary Pump 2",
+    "asset_type": "Pump",
+    "location": "Plant Room",
+    "demand_logic_id": "DHW_primary_pump_2",
+    "files": {
+      "daily_energy_2025": "DHW_primary_pump_2__Daily_energy__2025-01-01_to_2025-12-29.csv",
+      "daily_energy_2026": "DHW_primary_pump_2__Daily_energy__2025-12-31_to_2026-03-31.csv"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69e77fa76a263fd06053a79b"
+    },
+    "asset_id": "AHU_1",
+    "asset_name": "AHU 1",
+    "asset_type": "AHU",
+    "location": "Roof",
+    "demand_logic_id": "AHU_1",
+    "files": {
+      "daily_energy_2025": "AHU_1__Daily_energy_by_attribute__2025-01-01_to_2025-12-29.csv",
+      "daily_energy_2026": "AHU_1__Daily_energy_by_attribute__2025-12-31_to_2026-03-31.csv",
+      "heatmap_fan": "AHU_1__Daily_fan_heatmap__all_history.csv",
+      "heatmap_cooling": "AHU_1__Daily_cooling_heatmap__all_history.csv",
+      "heatmap_heating": "AHU_1__Daily_heating_heatmap__all_history.csv"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69e77fa76a263fd06053a79f"
+    },
+    "asset_id": "FCU_02_01",
+    "asset_name": "FCU 02/01",
+    "asset_type": "FCU",
+    "location": "Floor 02",
+    "demand_logic_id": "FCU 02/01",
+    "files": {
+      "daily_energy_2025": "FCU_02-01__Daily_energy__2025-01-01_to_2025-12-29.csv",
+      "daily_energy_2026": "FCU_02-01__Daily_energy__2025-12-31_to_2026-03-31.csv",
+      "heatmap_fan": "FCU_02-01__fan_heatmap__all_history.csv",
+      "heatmap_cooling": "FCU_02-01__cooling_heatmap__all_history.csv",
+      "heatmap_heating": "FCU_02-01__heating_heatmap__all_history.csv"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69e77fa76a263fd06053a7a7"
+    },
+    "asset_id": "FCU_10_01",
+    "asset_name": "FCU 10/01",
+    "asset_type": "FCU",
+    "location": "Floor 10",
+    "demand_logic_id": "FCU 10/01",
+    "files": {
+      "daily_energy_2025": "FCU_10-01__Daily_energy__2025-01-01_to_2025-12-29.csv",
+      "daily_energy_2026": "FCU_10-01__Daily_energy__2025-12-31_to_2026-03-31.csv",
+      "heatmap_fan": "FCU_10-01__fan_heatmap__all_history.csv",
+      "heatmap_cooling": "FCU_10-01__cooling_heatmap__all_history.csv",
+      "heatmap_heating": "FCU_10-01__heating_heatmap__all_history.csv"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69e77fa76a263fd06053a795"
+    },
+    "asset_id": "PUMP_CHW_2",
+    "asset_name": "CHW Primary Pump 2",
+    "asset_type": "Pump",
+    "location": "Plant Room",
+    "demand_logic_id": "CHW_primary_pump_2",
+    "files": {
+      "daily_energy_2025": "CHW_primary_pump_2__Daily_energy__2025-01-01_to_2025-12-29.csv",
+      "daily_energy_2026": "CHW_primary_pump_2__Daily_energy__2025-12-31_to_2026-03-31.csv"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69e77fa76a263fd06053a799"
+    },
+    "asset_id": "PUMP_LTHW_1",
+    "asset_name": "LTHW Primary Pump 1",
+    "asset_type": "Pump",
+    "location": "Plant Room",
+    "demand_logic_id": "LTHW_primary_pump_1",
+    "files": {
+      "daily_energy_2025": "LTHW_primary_pump_1__Daily_energy__2025-01-01_to_2025-12-29.csv",
+      "daily_energy_2026": "LTHW_primary_pump_1__Daily_energy__2025-12-31_to_2026-03-31.csv"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69e77fa76a263fd06053a794"
+    },
+    "asset_id": "PUMP_CHW_1",
+    "asset_name": "CHW Primary Pump 1",
+    "asset_type": "Pump",
+    "location": "Plant Room",
+    "demand_logic_id": "CHW_primary_pump_1",
+    "files": {
+      "daily_energy_2025": "CHW_primary_pump_1__Daily_energy__2025-01-01_to_2025-12-29.csv",
+      "daily_energy_2026": "CHW_primary_pump_1__Daily_energy__2025-12-31_to_2026-03-31.csv"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69e77fa76a263fd06053a796"
+    },
+    "asset_id": "PUMP_DHW_1",
+    "asset_name": "DHW Primary Pump 1",
+    "asset_type": "Pump",
+    "location": "Plant Room",
+    "demand_logic_id": "DHW_primary_pump_1",
+    "files": {
+      "daily_energy_2025": "DHW_primary_pump_1__Daily_energy__2025-01-01_to_2025-12-29.csv",
+      "daily_energy_2026": "DHW_primary_pump_1__Daily_energy__2025-12-31_to_2026-03-31.csv"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69e77fa76a263fd06053a798"
+    },
+    "asset_id": "PUMP_DHW_S",
+    "asset_name": "DHW Secondary Pump",
+    "asset_type": "Pump",
+    "location": "Plant Room",
+    "demand_logic_id": "DHW_secondary_pump",
+    "files": {
+      "daily_energy_2025": "DHW_secondary_pump__Daily_energy__2025-01-01_to_2025-12-29.csv",
+      "daily_energy_2026": "DHW_secondary_pump__Daily_energy__2025-12-31_to_2026-03-31.csv"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69e77fa76a263fd06053a7a0"
+    },
+    "asset_id": "FCU_03_01",
+    "asset_name": "FCU 03/01",
+    "asset_type": "FCU",
+    "location": "Floor 03",
+    "demand_logic_id": "FCU 03/01",
+    "files": {
+      "daily_energy_2025": "FCU_03-01__Daily_energy__2025-01-01_to_2025-12-29.csv",
+      "daily_energy_2026": "FCU_03-01__Daily_energy__2025-12-31_to_2026-03-31.csv",
+      "heatmap_fan": "FCU_03-01__fan_heatmap__all_history.csv",
+      "heatmap_cooling": "FCU_03-01__cooling_heatmap__all_history.csv",
+      "heatmap_heating": "FCU_03-01__heating_heatmap__all_history.csv"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69e77fa76a263fd06053a7a8"
+    },
+    "asset_id": "FCU_11_01",
+    "asset_name": "FCU 11/01",
+    "asset_type": "FCU",
+    "location": "Floor 11",
+    "demand_logic_id": "FCU 11/01",
+    "files": {
+      "daily_energy_2025": "FCU_11-01__Daily_energy__2025-01-01_to_2025-12-29.csv",
+      "daily_energy_2026": "FCU_11-01__Daily_energy__2025-12-31_to_2026-03-31.csv",
+      "heatmap_fan": "FCU_11-01__fan_heatmap__all_history.csv",
+      "heatmap_cooling": "FCU_11-01__cooling_heatmap__all_history.csv",
+      "heatmap_heating": "FCU_11-01__heating_heatmap__all_history.csv"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69e77fa76a263fd06053a79d"
+    },
+    "asset_id": "AHU_Kitchen",
+    "asset_name": "AHU Kitchen",
+    "asset_type": "AHU",
+    "location": "Roof",
+    "demand_logic_id": "AHU_Kitchen",
+    "files": {
+      "daily_energy_2025": "AHU_Kitchen__Daily_energy_by_attribute__2025-01-01_to_2025-12-29.csv",
+      "daily_energy_2026": "AHU_Kitchen__Daily_energy_by_attribute__2025-12-31_to_2026-03-31.csv",
+      "heatmap_fan": "AHU_Kitchen__Daily_fan_heatmap__all_history.csv",
+      "heatmap_cooling": "AHU_Kitchen__Daily_cooling_heatmap__all_history.csv",
+      "heatmap_heating": "AHU_Kitchen__Daily_heating_heatmap__all_history.csv"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69e77fa76a263fd06053a7a3"
+    },
+    "asset_id": "FCU_06_01",
+    "asset_name": "FCU 06/01",
+    "asset_type": "FCU",
+    "location": "Floor 06",
+    "demand_logic_id": "FCU 06/01",
+    "files": {
+      "daily_energy_2025": "FCU_06-01__Daily_energy__2025-01-01_to_2025-12-29.csv",
+      "daily_energy_2026": "FCU_06-01__Daily_energy__2025-12-31_to_2026-03-31.csv",
+      "heatmap_fan": "FCU_06-01__fan_heatmap__all_history.csv",
+      "heatmap_cooling": "FCU_06-01__cooling_heatmap__all_history.csv",
+      "heatmap_heating": "FCU_06-01__heating_heatmap__all_history.csv"
+    }
+  }
+]

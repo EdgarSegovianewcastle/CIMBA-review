@@ -1,0 +1,359 @@
+[
+  {
+    "_id": {
+      "$oid": "6a02002a5f0b3e6fff4d978c"
+    },
+    "asset_id": "AHU_1",
+    "Asset ID": "AHU_1",
+    "AHI (%)": 65.3,
+    "AHI": 65.3,
+    "ahi": 65.3,
+    "Estimated_RUL (Years)": 7.99,
+    "Health_Category": "Good",
+    "model": "ahi-4060-then-weibull-projection",
+    "ahi_method": "0.4*age + 0.6*condition (paper PHME-CLASS)",
+    "projection_method": "weibull with climate stress factor",
+    "data_status": "real",
+    "predicted_at": "2026-05-11T16:13:30.297250"
+  },
+  {
+    "_id": {
+      "$oid": "6a02002d5f0b3e6fff4d992f"
+    },
+    "asset_id": "AHU_Kitchen",
+    "Asset ID": "AHU_Kitchen",
+    "AHI (%)": 77.3,
+    "AHI": 77.3,
+    "ahi": 77.3,
+    "Estimated_RUL (Years)": 7.99,
+    "Health_Category": "Good",
+    "model": "ahi-4060-then-weibull-projection",
+    "ahi_method": "0.4*age + 0.6*condition (paper PHME-CLASS)",
+    "projection_method": "weibull with climate stress factor",
+    "data_status": "real",
+    "predicted_at": "2026-05-11T16:13:33.291239"
+  },
+  {
+    "_id": {
+      "$oid": "6a02002f5f0b3e6fff4d9ad2"
+    },
+    "asset_id": "FCU_02_01",
+    "Asset ID": "FCU_02_01",
+    "AHI (%)": 77.3,
+    "AHI": 77.3,
+    "ahi": 77.3,
+    "Estimated_RUL (Years)": 7.99,
+    "Health_Category": "Good",
+    "model": "ahi-4060-then-weibull-projection",
+    "ahi_method": "0.4*age + 0.6*condition (paper PHME-CLASS)",
+    "projection_method": "weibull with climate stress factor",
+    "data_status": "real",
+    "predicted_at": "2026-05-11T16:13:35.292900"
+  },
+  {
+    "_id": {
+      "$oid": "6a0200325f0b3e6fff4d9c75"
+    },
+    "asset_id": "FCU_08_01",
+    "Asset ID": "FCU_08_01",
+    "AHI (%)": 77.3,
+    "AHI": 77.3,
+    "ahi": 77.3,
+    "Estimated_RUL (Years)": 7.99,
+    "Health_Category": "Good",
+    "model": "ahi-4060-then-weibull-projection",
+    "ahi_method": "0.4*age + 0.6*condition (paper PHME-CLASS)",
+    "projection_method": "weibull with climate stress factor",
+    "data_status": "real",
+    "predicted_at": "2026-05-11T16:13:38.289499"
+  },
+  {
+    "_id": {
+      "$oid": "6a0200345f0b3e6fff4d9e18"
+    },
+    "asset_id": "PUMP_DHW_1",
+    "Asset ID": "PUMP_DHW_1",
+    "AHI (%)": 94.2,
+    "AHI": 94.2,
+    "ahi": 94.2,
+    "Estimated_RUL (Years)": 7.99,
+    "Health_Category": "Excellent",
+    "model": "ahi-4060-then-weibull-projection",
+    "ahi_method": "0.4*age + 0.6*condition (paper PHME-CLASS)",
+    "projection_method": "weibull with climate stress factor",
+    "data_status": "real",
+    "predicted_at": "2026-05-11T16:13:40.289113"
+  },
+  {
+    "_id": {
+      "$oid": "6a0200375f0b3e6fff4d9fbb"
+    },
+    "asset_id": "FCU_06_01",
+    "Asset ID": "FCU_06_01",
+    "AHI (%)": 77.3,
+    "AHI": 77.3,
+    "ahi": 77.3,
+    "Estimated_RUL (Years)": 7.99,
+    "Health_Category": "Good",
+    "model": "ahi-4060-then-weibull-projection",
+    "ahi_method": "0.4*age + 0.6*condition (paper PHME-CLASS)",
+    "projection_method": "weibull with climate stress factor",
+    "data_status": "real",
+    "predicted_at": "2026-05-11T16:13:43.295545"
+  },
+  {
+    "_id": {
+      "$oid": "6a0200395f0b3e6fff4da15e"
+    },
+    "asset_id": "FCU_07_01",
+    "Asset ID": "FCU_07_01",
+    "AHI (%)": 77.3,
+    "AHI": 77.3,
+    "ahi": 77.3,
+    "Estimated_RUL (Years)": 7.99,
+    "Health_Category": "Good",
+    "model": "ahi-4060-then-weibull-projection",
+    "ahi_method": "0.4*age + 0.6*condition (paper PHME-CLASS)",
+    "projection_method": "weibull with climate stress factor",
+    "data_status": "real",
+    "predicted_at": "2026-05-11T16:13:45.288711"
+  },
+  {
+    "_id": {
+      "$oid": "6a02003c5f0b3e6fff4da301"
+    },
+    "asset_id": "FCU_09_01",
+    "Asset ID": "FCU_09_01",
+    "AHI (%)": 77.3,
+    "AHI": 77.3,
+    "ahi": 77.3,
+    "Estimated_RUL (Years)": 7.99,
+    "Health_Category": "Good",
+    "model": "ahi-4060-then-weibull-projection",
+    "ahi_method": "0.4*age + 0.6*condition (paper PHME-CLASS)",
+    "projection_method": "weibull with climate stress factor",
+    "data_status": "real",
+    "predicted_at": "2026-05-11T16:13:48.301964"
+  },
+  {
+    "_id": {
+      "$oid": "6a02003e5f0b3e6fff4da4a4"
+    },
+    "asset_id": "FCU_11_01",
+    "Asset ID": "FCU_11_01",
+    "AHI (%)": 77.3,
+    "AHI": 77.3,
+    "ahi": 77.3,
+    "Estimated_RUL (Years)": 7.99,
+    "Health_Category": "Good",
+    "model": "ahi-4060-then-weibull-projection",
+    "ahi_method": "0.4*age + 0.6*condition (paper PHME-CLASS)",
+    "projection_method": "weibull with climate stress factor",
+    "data_status": "real",
+    "predicted_at": "2026-05-11T16:13:50.297691"
+  },
+  {
+    "_id": {
+      "$oid": "6a0200415f0b3e6fff4da647"
+    },
+    "asset_id": "PUMP_LTHW_1",
+    "Asset ID": "PUMP_LTHW_1",
+    "AHI (%)": 82.2,
+    "AHI": 82.2,
+    "ahi": 82.2,
+    "Estimated_RUL (Years)": 7.99,
+    "Health_Category": "Excellent",
+    "model": "ahi-4060-then-weibull-projection",
+    "ahi_method": "0.4*age + 0.6*condition (paper PHME-CLASS)",
+    "projection_method": "weibull with climate stress factor",
+    "data_status": "real",
+    "predicted_at": "2026-05-11T16:13:53.300595"
+  },
+  {
+    "_id": {
+      "$oid": "6a0200435f0b3e6fff4da7ea"
+    },
+    "asset_id": "FCU_03_01",
+    "Asset ID": "FCU_03_01",
+    "AHI (%)": 77.3,
+    "AHI": 77.3,
+    "ahi": 77.3,
+    "Estimated_RUL (Years)": 7.99,
+    "Health_Category": "Good",
+    "model": "ahi-4060-then-weibull-projection",
+    "ahi_method": "0.4*age + 0.6*condition (paper PHME-CLASS)",
+    "projection_method": "weibull with climate stress factor",
+    "data_status": "real",
+    "predicted_at": "2026-05-11T16:13:55.303843"
+  },
+  {
+    "_id": {
+      "$oid": "6a0200465f0b3e6fff4da98d"
+    },
+    "asset_id": "PUMP_LTHW_2",
+    "Asset ID": "PUMP_LTHW_2",
+    "AHI (%)": 82.2,
+    "AHI": 82.2,
+    "ahi": 82.2,
+    "Estimated_RUL (Years)": 7.99,
+    "Health_Category": "Excellent",
+    "model": "ahi-4060-then-weibull-projection",
+    "ahi_method": "0.4*age + 0.6*condition (paper PHME-CLASS)",
+    "projection_method": "weibull with climate stress factor",
+    "data_status": "real",
+    "predicted_at": "2026-05-11T16:13:58.306888"
+  },
+  {
+    "_id": {
+      "$oid": "6a0200485f0b3e6fff4dab30"
+    },
+    "asset_id": "AHU_2",
+    "Asset ID": "AHU_2",
+    "AHI (%)": 77.3,
+    "AHI": 77.3,
+    "ahi": 77.3,
+    "Estimated_RUL (Years)": 7.99,
+    "Health_Category": "Good",
+    "model": "ahi-4060-then-weibull-projection",
+    "ahi_method": "0.4*age + 0.6*condition (paper PHME-CLASS)",
+    "projection_method": "weibull with climate stress factor",
+    "data_status": "real",
+    "predicted_at": "2026-05-11T16:14:00.307492"
+  },
+  {
+    "_id": {
+      "$oid": "6a02004b5f0b3e6fff4dacd3"
+    },
+    "asset_id": "FCU_04_01",
+    "Asset ID": "FCU_04_01",
+    "AHI (%)": 77.3,
+    "AHI": 77.3,
+    "ahi": 77.3,
+    "Estimated_RUL (Years)": 7.99,
+    "Health_Category": "Good",
+    "model": "ahi-4060-then-weibull-projection",
+    "ahi_method": "0.4*age + 0.6*condition (paper PHME-CLASS)",
+    "projection_method": "weibull with climate stress factor",
+    "data_status": "real",
+    "predicted_at": "2026-05-11T16:14:03.313603"
+  },
+  {
+    "_id": {
+      "$oid": "6a02004d5f0b3e6fff4dae76"
+    },
+    "asset_id": "FCU_10_01",
+    "Asset ID": "FCU_10_01",
+    "AHI (%)": 77.3,
+    "AHI": 77.3,
+    "ahi": 77.3,
+    "Estimated_RUL (Years)": 7.99,
+    "Health_Category": "Good",
+    "model": "ahi-4060-then-weibull-projection",
+    "ahi_method": "0.4*age + 0.6*condition (paper PHME-CLASS)",
+    "projection_method": "weibull with climate stress factor",
+    "data_status": "real",
+    "predicted_at": "2026-05-11T16:14:05.306797"
+  },
+  {
+    "_id": {
+      "$oid": "6a0200505f0b3e6fff4db019"
+    },
+    "asset_id": "PUMP_DHW_S",
+    "Asset ID": "PUMP_DHW_S",
+    "AHI (%)": 70.2,
+    "AHI": 70.2,
+    "ahi": 70.2,
+    "Estimated_RUL (Years)": 7.99,
+    "Health_Category": "Good",
+    "model": "ahi-4060-then-weibull-projection",
+    "ahi_method": "0.4*age + 0.6*condition (paper PHME-CLASS)",
+    "projection_method": "weibull with climate stress factor",
+    "data_status": "real",
+    "predicted_at": "2026-05-11T16:14:08.442339"
+  },
+  {
+    "_id": {
+      "$oid": "6a0200525f0b3e6fff4db1bc"
+    },
+    "asset_id": "FCU_01_01",
+    "Asset ID": "FCU_01_01",
+    "AHI (%)": 77.3,
+    "AHI": 77.3,
+    "ahi": 77.3,
+    "Estimated_RUL (Years)": 7.99,
+    "Health_Category": "Good",
+    "model": "ahi-4060-then-weibull-projection",
+    "ahi_method": "0.4*age + 0.6*condition (paper PHME-CLASS)",
+    "projection_method": "weibull with climate stress factor",
+    "data_status": "real",
+    "predicted_at": "2026-05-11T16:14:10.321981"
+  },
+  {
+    "_id": {
+      "$oid": "6a0200555f0b3e6fff4db35f"
+    },
+    "asset_id": "FCU_05_01",
+    "Asset ID": "FCU_05_01",
+    "AHI (%)": 77.3,
+    "AHI": 77.3,
+    "ahi": 77.3,
+    "Estimated_RUL (Years)": 7.99,
+    "Health_Category": "Good",
+    "model": "ahi-4060-then-weibull-projection",
+    "ahi_method": "0.4*age + 0.6*condition (paper PHME-CLASS)",
+    "projection_method": "weibull with climate stress factor",
+    "data_status": "real",
+    "predicted_at": "2026-05-11T16:14:13.309451"
+  },
+  {
+    "_id": {
+      "$oid": "6a0200575f0b3e6fff4db502"
+    },
+    "asset_id": "PUMP_CHW_1",
+    "Asset ID": "PUMP_CHW_1",
+    "AHI (%)": 82.2,
+    "AHI": 82.2,
+    "ahi": 82.2,
+    "Estimated_RUL (Years)": 7.99,
+    "Health_Category": "Excellent",
+    "model": "ahi-4060-then-weibull-projection",
+    "ahi_method": "0.4*age + 0.6*condition (paper PHME-CLASS)",
+    "projection_method": "weibull with climate stress factor",
+    "data_status": "real",
+    "predicted_at": "2026-05-11T16:14:15.308756"
+  },
+  {
+    "_id": {
+      "$oid": "6a02005a5f0b3e6fff4db6a5"
+    },
+    "asset_id": "PUMP_CHW_2",
+    "Asset ID": "PUMP_CHW_2",
+    "AHI (%)": 82.2,
+    "AHI": 82.2,
+    "ahi": 82.2,
+    "Estimated_RUL (Years)": 7.99,
+    "Health_Category": "Excellent",
+    "model": "ahi-4060-then-weibull-projection",
+    "ahi_method": "0.4*age + 0.6*condition (paper PHME-CLASS)",
+    "projection_method": "weibull with climate stress factor",
+    "data_status": "real",
+    "predicted_at": "2026-05-11T16:14:18.318270"
+  },
+  {
+    "_id": {
+      "$oid": "6a02005c5f0b3e6fff4db848"
+    },
+    "asset_id": "PUMP_DHW_2",
+    "Asset ID": "PUMP_DHW_2",
+    "AHI (%)": 82.2,
+    "AHI": 82.2,
+    "ahi": 82.2,
+    "Estimated_RUL (Years)": 7.99,
+    "Health_Category": "Excellent",
+    "model": "ahi-4060-then-weibull-projection",
+    "ahi_method": "0.4*age + 0.6*condition (paper PHME-CLASS)",
+    "projection_method": "weibull with climate stress factor",
+    "data_status": "real",
+    "predicted_at": "2026-05-11T16:14:20.315653"
+  }
+]

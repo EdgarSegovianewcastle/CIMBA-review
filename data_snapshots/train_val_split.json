@@ -1,0 +1,170 @@
+[
+  {
+    "_id": {
+      "$oid": "6a001b64af4d452c95323114"
+    },
+    "asset_id": "FCU_01_01",
+    "asset_type": "FCU",
+    "role": "train"
+  },
+  {
+    "_id": {
+      "$oid": "6a001b64af4d452c95323115"
+    },
+    "asset_id": "FCU_02_01",
+    "asset_type": "FCU",
+    "role": "train"
+  },
+  {
+    "_id": {
+      "$oid": "6a001b64af4d452c95323116"
+    },
+    "asset_id": "FCU_03_01",
+    "asset_type": "FCU",
+    "role": "train"
+  },
+  {
+    "_id": {
+      "$oid": "6a001b64af4d452c95323117"
+    },
+    "asset_id": "FCU_04_01",
+    "asset_type": "FCU",
+    "role": "train"
+  },
+  {
+    "_id": {
+      "$oid": "6a001b64af4d452c95323118"
+    },
+    "asset_id": "FCU_05_01",
+    "asset_type": "FCU",
+    "role": "train"
+  },
+  {
+    "_id": {
+      "$oid": "6a001b64af4d452c95323119"
+    },
+    "asset_id": "FCU_06_01",
+    "asset_type": "FCU",
+    "role": "train"
+  },
+  {
+    "_id": {
+      "$oid": "6a001b64af4d452c9532311a"
+    },
+    "asset_id": "FCU_07_01",
+    "asset_type": "FCU",
+    "role": "train"
+  },
+  {
+    "_id": {
+      "$oid": "6a001b64af4d452c9532311b"
+    },
+    "asset_id": "FCU_08_01",
+    "asset_type": "FCU",
+    "role": "train"
+  },
+  {
+    "_id": {
+      "$oid": "6a001b64af4d452c9532311c"
+    },
+    "asset_id": "FCU_09_01",
+    "asset_type": "FCU",
+    "role": "validation"
+  },
+  {
+    "_id": {
+      "$oid": "6a001b64af4d452c9532311d"
+    },
+    "asset_id": "FCU_10_01",
+    "asset_type": "FCU",
+    "role": "validation"
+  },
+  {
+    "_id": {
+      "$oid": "6a001b64af4d452c9532311e"
+    },
+    "asset_id": "FCU_11_01",
+    "asset_type": "FCU",
+    "role": "validation"
+  },
+  {
+    "_id": {
+      "$oid": "6a001b64af4d452c9532311f"
+    },
+    "asset_id": "AHU_1",
+    "asset_type": "AHU",
+    "role": "train"
+  },
+  {
+    "_id": {
+      "$oid": "6a001b64af4d452c95323120"
+    },
+    "asset_id": "AHU_2",
+    "asset_type": "AHU",
+    "role": "train"
+  },
+  {
+    "_id": {
+      "$oid": "6a001b64af4d452c95323121"
+    },
+    "asset_id": "AHU_Kitchen",
+    "asset_type": "AHU",
+    "role": "train"
+  },
+  {
+    "_id": {
+      "$oid": "6a001b64af4d452c95323122"
+    },
+    "asset_id": "PUMP_CHW_1",
+    "asset_type": "Pump",
+    "role": "train"
+  },
+  {
+    "_id": {
+      "$oid": "6a001b64af4d452c95323123"
+    },
+    "asset_id": "PUMP_CHW_2",
+    "asset_type": "Pump",
+    "role": "train"
+  },
+  {
+    "_id": {
+      "$oid": "6a001b64af4d452c95323124"
+    },
+    "asset_id": "PUMP_DHW_1",
+    "asset_type": "Pump",
+    "role": "train"
+  },
+  {
+    "_id": {
+      "$oid": "6a001b64af4d452c95323125"
+    },
+    "asset_id": "PUMP_DHW_2",
+    "asset_type": "Pump",
+    "role": "train"
+  },
+  {
+    "_id": {
+      "$oid": "6a001b64af4d452c95323126"
+    },
+    "asset_id": "PUMP_DHW_S",
+    "asset_type": "Pump",
+    "role": "train"
+  },
+  {
+    "_id": {
+      "$oid": "6a001b64af4d452c95323127"
+    },
+    "asset_id": "PUMP_LTHW_1",
+    "asset_type": "Pump",
+    "role": "train"
+  },
+  {
+    "_id": {
+      "$oid": "6a001b64af4d452c95323128"
+    },
+    "asset_id": "PUMP_LTHW_2",
+    "asset_type": "Pump",
+    "role": "train"
+  }
+]

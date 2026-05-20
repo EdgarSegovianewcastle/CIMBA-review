@@ -1,0 +1,233 @@
+[
+  {
+    "_id": {
+      "$oid": "69e78b59f17d6c1dec732e54"
+    },
+    "asset_id": "PUMP_DHW_2",
+    "Date": "2024-09-10",
+    "Action": "CMSL PPM check — SFG20 45-16. Twin head DHWS Primary pump. Inverter driven. Running at 50%. No issues noted.",
+    "Assessed_Health": 75,
+    "technician": "CMSL",
+    "type": "PPM"
+  },
+  {
+    "_id": {
+      "$oid": "69e78b59f17d6c1dec732e55"
+    },
+    "asset_id": "PUMP_DHW_S",
+    "Date": "2024-09-10",
+    "Action": "CMSL PPM check — SFG20 45-02. DHW Secondary pump. Off on demand at time of visit. 1 spare unit confirmed on site. Usage at 138% vs expected — flagged for priority monitoring.",
+    "Assessed_Health": 55,
+    "technician": "CMSL",
+    "type": "PPM"
+  },
+  {
+    "_id": {
+      "$oid": "69e78b59f17d6c1dec732e5c"
+    },
+    "asset_id": "FCU_02_01",
+    "Date": "2024-09-03",
+    "Action": "CMSL mobilisation inspection — SFG20 59-06. 20 units on floor, all running. Condensate drain pipework horizontal — action raised.",
+    "Assessed_Health": 70,
+    "technician": "CMSL",
+    "type": "Inspection"
+  },
+  {
+    "_id": {
+      "$oid": "69e78b59f17d6c1dec732e62"
+    },
+    "asset_id": "FCU_08_01",
+    "Date": "2024-09-03",
+    "Action": "CMSL mobilisation inspection — SFG20 59-06. 25 units on floor, all running. Condensate drain pipework horizontal — action raised.",
+    "Assessed_Health": 70,
+    "technician": "CMSL",
+    "type": "Inspection"
+  },
+  {
+    "_id": {
+      "$oid": "69e78b59f17d6c1dec732e51"
+    },
+    "asset_id": "PUMP_CHW_1",
+    "Date": "2024-09-10",
+    "Action": "CMSL PPM check — SFG20 45-16. Pump operational at 25Hz (50%). Noise, vibration and running amps checked. No issues found.",
+    "Assessed_Health": 80,
+    "technician": "CMSL",
+    "type": "PPM"
+  },
+  {
+    "_id": {
+      "$oid": "69e78b59f17d6c1dec732e53"
+    },
+    "asset_id": "PUMP_DHW_1",
+    "Date": "2024-09-10",
+    "Action": "CMSL PPM check — SFG20 45-16. Twin head DHWS Primary pump. Inverter driven. Running at 50%. No issues noted.",
+    "Assessed_Health": 82,
+    "technician": "CMSL",
+    "type": "PPM"
+  },
+  {
+    "_id": {
+      "$oid": "69e78b59f17d6c1dec732e5a"
+    },
+    "asset_id": "AHU_Kitchen",
+    "Date": "2024-09-03",
+    "Action": "CMSL mobilisation inspection. Unit running at time of visit. No critical defects noted.",
+    "Assessed_Health": 72,
+    "technician": "CMSL",
+    "type": "Inspection"
+  },
+  {
+    "_id": {
+      "$oid": "69e78b59f17d6c1dec732e60"
+    },
+    "asset_id": "FCU_06_01",
+    "Date": "2024-09-03",
+    "Action": "CMSL mobilisation inspection — SFG20 59-06. 25 units on floor, all running. Condensate drain pipework horizontal — action raised.",
+    "Assessed_Health": 70,
+    "technician": "CMSL",
+    "type": "Inspection"
+  },
+  {
+    "_id": {
+      "$oid": "69e78b59f17d6c1dec732e57"
+    },
+    "asset_id": "PUMP_LTHW_2",
+    "Date": "2024-09-10",
+    "Action": "CMSL PPM check — SFG20 45-16. LTHW CT pump. Inverter driven via Danfoss VLT. Running at 25Hz (50%). No issues noted.",
+    "Assessed_Health": 76,
+    "technician": "CMSL",
+    "type": "PPM"
+  },
+  {
+    "_id": {
+      "$oid": "69e78b59f17d6c1dec732e58"
+    },
+    "asset_id": "AHU_1",
+    "Date": "2024-09-03",
+    "Action": "CMSL mobilisation inspection — SFG20 03-01. Both units running at time of visit. Filters found dirty and incorrectly fitted. Action raised for immediate replacement. New filters confirmed in roof plant room.",
+    "Assessed_Health": 60,
+    "technician": "CMSL",
+    "type": "Inspection"
+  },
+  {
+    "_id": {
+      "$oid": "69e78b59f17d6c1dec732e5b"
+    },
+    "asset_id": "FCU_01_01",
+    "Date": "2024-09-03",
+    "Action": "CMSL mobilisation inspection — SFG20 59-06. 17 units on floor, all running. Condensate drain pipework horizontal with no noticeable drop — action raised for all FCUs.",
+    "Assessed_Health": 70,
+    "technician": "CMSL",
+    "type": "Inspection"
+  },
+  {
+    "_id": {
+      "$oid": "69e78b59f17d6c1dec732e5d"
+    },
+    "asset_id": "FCU_03_01",
+    "Date": "2024-09-03",
+    "Action": "CMSL mobilisation inspection — SFG20 59-06. 25 units on floor, all running. Condensate drain pipework horizontal — action raised.",
+    "Assessed_Health": 70,
+    "technician": "CMSL",
+    "type": "Inspection"
+  },
+  {
+    "_id": {
+      "$oid": "69e78b59f17d6c1dec732e59"
+    },
+    "asset_id": "AHU_2",
+    "Date": "2024-09-03",
+    "Action": "CMSL mobilisation inspection — SFG20 13-01. Unit running at time of visit. Filters inspected — condition noted. No critical defects beyond filter condition.",
+    "Assessed_Health": 70,
+    "technician": "CMSL",
+    "type": "Inspection"
+  },
+  {
+    "_id": {
+      "$oid": "69e78b59f17d6c1dec732e5f"
+    },
+    "asset_id": "FCU_05_01",
+    "Date": "2024-09-03",
+    "Action": "CMSL mobilisation inspection — SFG20 59-06. 25 units on floor (verified, 5 fewer than tendered). All running. Condensate drain pipework horizontal — action raised.",
+    "Assessed_Health": 70,
+    "technician": "CMSL",
+    "type": "Inspection"
+  },
+  {
+    "_id": {
+      "$oid": "69e78b59f17d6c1dec732e64"
+    },
+    "asset_id": "FCU_10_01",
+    "Date": "2024-09-03",
+    "Action": "CMSL mobilisation inspection — SFG20 59-06. 25 units on floor, all running. Condensate drain pipework horizontal — action raised.",
+    "Assessed_Health": 70,
+    "technician": "CMSL",
+    "type": "Inspection"
+  },
+  {
+    "_id": {
+      "$oid": "69e78b59f17d6c1dec732e52"
+    },
+    "asset_id": "PUMP_CHW_2",
+    "Date": "2024-09-10",
+    "Action": "CMSL PPM check — SFG20 45-16. Pump operational at 25Hz (50%). Noise, vibration and running amps checked. No issues found.",
+    "Assessed_Health": 78,
+    "technician": "CMSL",
+    "type": "PPM"
+  },
+  {
+    "_id": {
+      "$oid": "69e78b59f17d6c1dec732e56"
+    },
+    "asset_id": "PUMP_LTHW_1",
+    "Date": "2024-09-10",
+    "Action": "CMSL PPM check — SFG20 45-16. LTHW CT pump. Inverter driven via Danfoss VLT. Running at 25Hz (50%). No issues noted.",
+    "Assessed_Health": 72,
+    "technician": "CMSL",
+    "type": "PPM"
+  },
+  {
+    "_id": {
+      "$oid": "69e78b59f17d6c1dec732e61"
+    },
+    "asset_id": "FCU_07_01",
+    "Date": "2024-09-03",
+    "Action": "CMSL mobilisation inspection — SFG20 59-06. 25 units on floor, all running. Condensate drain pipework horizontal — action raised.",
+    "Assessed_Health": 70,
+    "technician": "CMSL",
+    "type": "Inspection"
+  },
+  {
+    "_id": {
+      "$oid": "69e78b59f17d6c1dec732e63"
+    },
+    "asset_id": "FCU_09_01",
+    "Date": "2024-09-03",
+    "Action": "CMSL mobilisation inspection — SFG20 59-06. 25 units on floor, all running. Condensate drain pipework horizontal — action raised.",
+    "Assessed_Health": 70,
+    "technician": "CMSL",
+    "type": "Inspection"
+  },
+  {
+    "_id": {
+      "$oid": "69e78b59f17d6c1dec732e65"
+    },
+    "asset_id": "FCU_11_01",
+    "Date": "2024-09-03",
+    "Action": "CMSL mobilisation inspection — SFG20 59-06. 19 units on floor (2 more than tendered). All running. Condensate drain pipework horizontal — action raised.",
+    "Assessed_Health": 70,
+    "technician": "CMSL",
+    "type": "Inspection"
+  },
+  {
+    "_id": {
+      "$oid": "69e78b59f17d6c1dec732e5e"
+    },
+    "asset_id": "FCU_04_01",
+    "Date": "2024-09-03",
+    "Action": "CMSL mobilisation inspection — SFG20 59-06. 25 units on floor, all running. Condensate drain pipework horizontal — action raised.",
+    "Assessed_Health": 70,
+    "technician": "CMSL",
+    "type": "Inspection"
+  }
+]

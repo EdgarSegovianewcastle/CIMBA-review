@@ -1,0 +1,212 @@
+[
+  {
+    "_id": {
+      "$oid": "6a001af9af4d452c953230d9"
+    },
+    "asset_id": "AHU_1",
+    "asset_type": "AHU",
+    "n_predictions": 525,
+    "n_temp_predictions": 525,
+    "CVRMSE_%": 66.02
+  },
+  {
+    "_id": {
+      "$oid": "6a001af9af4d452c953230da"
+    },
+    "asset_id": "AHU_Kitchen",
+    "asset_type": "AHU",
+    "n_predictions": 525,
+    "n_temp_predictions": 525,
+    "CVRMSE_%": 19.18
+  },
+  {
+    "_id": {
+      "$oid": "6a001af9af4d452c953230db"
+    },
+    "asset_id": "FCU_02_01",
+    "asset_type": "FCU",
+    "n_predictions": 525,
+    "n_temp_predictions": 525,
+    "CVRMSE_%": 338.32
+  },
+  {
+    "_id": {
+      "$oid": "6a001af9af4d452c953230dc"
+    },
+    "asset_id": "FCU_08_01",
+    "asset_type": "FCU",
+    "n_predictions": 525,
+    "n_temp_predictions": 525,
+    "CVRMSE_%": 53.2
+  },
+  {
+    "_id": {
+      "$oid": "6a001af9af4d452c953230dd"
+    },
+    "asset_id": "PUMP_DHW_1",
+    "asset_type": "Pump",
+    "n_predictions": 525,
+    "n_temp_predictions": 0,
+    "CVRMSE_%": 174.61
+  },
+  {
+    "_id": {
+      "$oid": "6a001af9af4d452c953230de"
+    },
+    "asset_id": "FCU_06_01",
+    "asset_type": "FCU",
+    "n_predictions": 525,
+    "n_temp_predictions": 525,
+    "CVRMSE_%": 147.47
+  },
+  {
+    "_id": {
+      "$oid": "6a001af9af4d452c953230df"
+    },
+    "asset_id": "FCU_07_01",
+    "asset_type": "FCU",
+    "n_predictions": 525,
+    "n_temp_predictions": 525,
+    "CVRMSE_%": 171.77
+  },
+  {
+    "_id": {
+      "$oid": "6a001af9af4d452c953230e0"
+    },
+    "asset_id": "FCU_09_01",
+    "asset_type": "FCU",
+    "n_predictions": 525,
+    "n_temp_predictions": 525,
+    "CVRMSE_%": 92.41
+  },
+  {
+    "_id": {
+      "$oid": "6a001af9af4d452c953230e1"
+    },
+    "asset_id": "FCU_11_01",
+    "asset_type": "FCU",
+    "n_predictions": 525,
+    "n_temp_predictions": 525,
+    "CVRMSE_%": 75.98
+  },
+  {
+    "_id": {
+      "$oid": "6a001af9af4d452c953230e2"
+    },
+    "asset_id": "PUMP_LTHW_1",
+    "asset_type": "Pump",
+    "n_predictions": 525,
+    "n_temp_predictions": 0,
+    "CVRMSE_%": 152.6
+  },
+  {
+    "_id": {
+      "$oid": "6a001af9af4d452c953230e3"
+    },
+    "asset_id": "FCU_03_01",
+    "asset_type": "FCU",
+    "n_predictions": 525,
+    "n_temp_predictions": 525,
+    "CVRMSE_%": 344.78
+  },
+  {
+    "_id": {
+      "$oid": "6a001af9af4d452c953230e4"
+    },
+    "asset_id": "PUMP_LTHW_2",
+    "asset_type": "Pump",
+    "n_predictions": 525,
+    "n_temp_predictions": 0,
+    "CVRMSE_%": 154.18
+  },
+  {
+    "_id": {
+      "$oid": "6a001af9af4d452c953230e5"
+    },
+    "asset_id": "AHU_2",
+    "asset_type": "AHU",
+    "n_predictions": 525,
+    "n_temp_predictions": 525,
+    "CVRMSE_%": 58.98
+  },
+  {
+    "_id": {
+      "$oid": "6a001af9af4d452c953230e6"
+    },
+    "asset_id": "FCU_04_01",
+    "asset_type": "FCU",
+    "n_predictions": 525,
+    "n_temp_predictions": 525,
+    "CVRMSE_%": 111.74
+  },
+  {
+    "_id": {
+      "$oid": "6a001af9af4d452c953230e7"
+    },
+    "asset_id": "FCU_10_01",
+    "asset_type": "FCU",
+    "n_predictions": 525,
+    "n_temp_predictions": 525,
+    "CVRMSE_%": 108.6
+  },
+  {
+    "_id": {
+      "$oid": "6a001af9af4d452c953230e8"
+    },
+    "asset_id": "PUMP_DHW_S",
+    "asset_type": "Pump",
+    "n_predictions": 525,
+    "n_temp_predictions": 0,
+    "CVRMSE_%": 53.49
+  },
+  {
+    "_id": {
+      "$oid": "6a001af9af4d452c953230e9"
+    },
+    "asset_id": "FCU_01_01",
+    "asset_type": "FCU",
+    "n_predictions": 525,
+    "n_temp_predictions": 525,
+    "CVRMSE_%": 307.77
+  },
+  {
+    "_id": {
+      "$oid": "6a001af9af4d452c953230ea"
+    },
+    "asset_id": "FCU_05_01",
+    "asset_type": "FCU",
+    "n_predictions": 525,
+    "n_temp_predictions": 525,
+    "CVRMSE_%": 67.78
+  },
+  {
+    "_id": {
+      "$oid": "6a001af9af4d452c953230eb"
+    },
+    "asset_id": "PUMP_CHW_1",
+    "asset_type": "Pump",
+    "n_predictions": 525,
+    "n_temp_predictions": 0,
+    "CVRMSE_%": 157.78
+  },
+  {
+    "_id": {
+      "$oid": "6a001af9af4d452c953230ec"
+    },
+    "asset_id": "PUMP_CHW_2",
+    "asset_type": "Pump",
+    "n_predictions": 525,
+    "n_temp_predictions": 0,
+    "CVRMSE_%": 141.05
+  },
+  {
+    "_id": {
+      "$oid": "6a001af9af4d452c953230ed"
+    },
+    "asset_id": "PUMP_DHW_2",
+    "asset_type": "Pump",
+    "n_predictions": 525,
+    "n_temp_predictions": 0,
+    "CVRMSE_%": 144.77
+  }
+]

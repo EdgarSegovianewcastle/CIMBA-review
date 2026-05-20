@@ -1,0 +1,27 @@
+[
+  {
+    "_id": {
+      "$oid": "6a01a8c0ff1b3cafa4ebe59f"
+    },
+    "project_id": "newcastle",
+    "name": "Newcastle",
+    "manager_user_id": null,
+    "building_names": [
+      "The Spark"
+    ],
+    "notes": "Proyecto default creado por migrate_v15_multitenant.py",
+    "created_at": {
+      "$date": "2026-05-11T10:00:32.360000"
+    },
+    "created_by": "seed",
+    "buildings": [
+      {
+        "name": "The Spark",
+        "location_lat": 54.9716,
+        "location_lon": -1.6258
+      }
+    ],
+    "default_hourly_rate_gbp": 30,
+    "reactive_cost_multiplier": 2.5
+  }
+]

@@ -1,155 +1,76 @@
-# CIMBA pipeline (S1 to S5) for code review
+# CIMBA: code review
 
-This repo is shared for code review purposes: scripts, shared modules, and the raw data that feeds the pipeline. The goal is for reviewers to read the code, understand the data flow, and propose improvements.
+Hi, and thanks for taking a look at this.
 
-Period covered by the data: January 2025 to March 2026. Site: The Spark, Newcastle (WILSON project). Assets: HVAC equipment (FCUs, AHUs, pumps).
+CIMBA is a predictive maintenance framework for HVAC assets. It runs in five
+stages (S1 to S5): classify assets, compute a health index, build energy
+baselines, project degradation, and train a Random Forest per asset type.
 
----
+The site is the **Newcastle Helix Spark** building, 21 assets: 11 fan coil
+units (FCU), 3 air handling units (AHU) and 7 pumps. Data covers
+January 2025 to March 2026.
 
-## 1. What this pipeline does
+## The quick way (recommended)
 
-CIMBA classifies HVAC assets, computes a health index, builds energy baselines, trains forecasting models and projects degradation. The pipeline runs in five stages:
+Open `notebooks/CIMBA_pipeline_tour.ipynb` and run the cells from top to
+bottom. The notebook reads files straight from this repository, so no
+database is needed. It walks through each of the five stages with short
+explanations and shows the inputs and outputs at each step.
 
-| Script | Reads (Mongo collections) | Writes | Purpose |
-|---|---|---|---|
-| `S1_asset_classification.py` | `assets`, `maintenance_records` | `classification` | Brick ontology + criticality (Low / Med / High / Extreme) using a weighted impact, frequency, cost score |
-| `S2_asset_health_index.py` | `assets`, `classification` | `asset_health_index` | Asset Health Index (paper-faithful 40 % age, 60 % condition) |
-| `S3_baseline_usage.py` | classification + asset_config + operational_data + climate_data | `baselines/{asset}_baseline.csv` | Daily-usage baseline per asset (climate-conditioned) |
-| `S5_ai_training.py` | health_index + asset_config + operational_data + climate_data | `models/rf_model_{class}.pkl` + `model_registry.csv` | Random Forest per asset class, forecasting next-day kWh |
-| `S4_degradation_rate.py` | health_index + baselines + models + climate_data | `degradation_trajectory.csv` + `validation_results.csv` | Daily degradation and remaining useful life (Weibull beta=2 with climate stress factor) |
-
-Execution order: **S1, S2, S3, S5, S4**. S5 must run before S4 because S4 reads the trained models.
-
-All scripts read and write through `cimba_mongo.py`. Operational data is **daily granularity** in Mongo.
-
----
-
-## 2. Data flow
+You need Python 3.10 or newer and these packages:
 
 ```
-Raw daily exports
-   datos/{asset}__Daily_energy*.csv         (FCUs, AHUs, pumps; daily kWh per day)
-   temperatura2/PREPROCESADOS/*_Diario.csv  (FCU/AHU daily mean/max/min temperatures)
-                       │
-                       ▼
-   migrate_spark.py + load_daily_temperatures.py
-                       │
-                       ▼
-   MongoDB collections:
-     - operational_data        (type="hvac_energy" for FCU/AHU, "pump_energy" for pumps)
-     - operational_temperature (daily indoor temps for FCU/AHU)
-     - assets, asset_config, climate_data, maintenance_records, ...
-                       │
-                       ▼
-   S1 → S2 → S3 → S5 → S4
-```
-
-For HVAC (FCU / AHU), one document per asset per day contains: `Period`, `asset_id`, `type="hvac_energy"`, `heating_kWh`, `cooling_kWh`, `fan_kWh`. Total daily kWh is computed at read time as `heating_kWh + cooling_kWh + fan_kWh`.
-
-For pumps, one document per asset per day contains: `Period`, `asset_id`, `type="pump_energy"`, `kWh`.
-
----
-
-## 3. Repository layout
-
-```
-.
-├── S1_asset_classification.py
-├── S2_asset_health_index.py
-├── S3_baseline_usage.py
-├── S4_degradation_rate.py
-├── S5_ai_training.py
-├── cimba_paths.py             (shared path constants)
-├── cimba_mongo.py             (Mongo helpers, reads MONGO_URI env var)
-├── migrate_spark.py           (loads daily energy CSVs from datos/ into Mongo)
-├── migrate_temperature.py     (loads raw 5-min temperatures from temepratura1/)
-├── load_daily_temperatures.py (loads daily temperatures from temperatura2/PREPROCESADOS/)
-├── requirements.txt
-│
-├── database/
-│   ├── assets/                asset register, maintenance records, condition reports
-│   └── climate/               daily climate data (Open-Meteo ensemble)
-│
-├── datos/                     daily energy exports per asset (FCUs, AHUs, pumps)
-│                              two windows per asset: 2025-01-01 to 2025-12-29 and 2025-12-31 to 2026-03-31
-│
-├── temepratura1/              raw 5-min temperature CSVs (FCUs)
-└── temperatura2/              raw 5-min temperature CSVs (AHUs)
-    ├── CONSOLIDADOS/          consolidated per asset across all months
-    └── PREPROCESADOS/         daily aggregates (mean, max, min) used by load_daily_temperatures.py
-```
-
-Outputs are not shipped (they are generated by S3 / S5 / S4 and live in Mongo plus a few CSVs that the scripts write).
-
----
-
-## 4. Asset coverage
-
-The pipeline operates on 21 assets at The Spark:
-
-- **11 FCUs**: FCU_01_01 through FCU_11_01 (one per floor)
-- **3 AHUs**: AHU_1, AHU_2, AHU_Kitchen
-- **7 pumps**: 2 CHW primary, 2 DHW primary, 1 DHW secondary, 2 LTHW primary
-
-Daily energy data covers all 21 assets in `datos/`. Daily temperatures cover FCUs and AHUs (pumps have no indoor temp sensor).
-
----
-
-## 5. Suggested review focus
-
-Areas where feedback is particularly welcome:
-
-- **S1 classification**: weighting scheme (`W_IMP=0.5`, `W_FREQ=0.3`, `W_COST=0.2`), Brick keyword coverage, thresholds for Yes / Maybe.
-- **S2 AHI formula**: 40 / 60 weighting, override rule when condition rating <= 2, treatment of missing condition data.
-- **S3 baseline**: climate-conditioned daily prediction, handling of intermittent operation, NaN handling.
-- **S5 training**: feature engineering, train / validation split, RF hyperparameters, target leakage checks.
-- **S4 degradation**: Weibull beta choice, climate stress factor formulation, RUL calculation.
-- **Data preprocessing**: assumptions made when consolidating temperatures, gap handling (see `temperatura2/README_DATOS.md` for known gaps in the source data).
-
----
-
-## 6. How to share feedback
-
-Options:
-
-1. **GitHub PRs**: branch off `main`, propose changes, open a pull request. Comments at line level supported.
-2. **GitHub Issues**: one issue per topic / area, with code references.
-3. **Direct file**: a PDF or markdown document with comments, sent by email to edgarsegovia92@gmail.com.
-
-No need to run the pipeline locally for review. If you do want to run it, see section 7 below.
-
----
-
-## 7. Optional: running the pipeline locally
-
-If you want to execute the scripts (not required for review):
-
-```
-# Mongo local (Docker)
-docker run -d -p 27017:27017 --name cimba-mongo mongo:7
-
-# Python env
-python -m venv .venv
-.venv\Scripts\activate     # Windows
-# source .venv/bin/activate  # macOS / Linux
 pip install -r requirements.txt
-
-# Populate Mongo (order matters)
-python migrate_spark.py            # loads daily energy from datos/
-python load_daily_temperatures.py  # loads daily temperatures from temperatura2/PREPROCESADOS/
-
-# Run pipeline
-python S1_asset_classification.py
-python S2_asset_health_index.py
-python S3_baseline_usage.py
-python S5_ai_training.py
-python S4_degradation_rate.py
 ```
 
-If you keep the defaults (`MONGO_URI=mongodb://localhost:27017/`), no extra env vars are needed.
+That is enough for the notebook.
 
----
+## What is in here
 
-## 8. Contact
+- `S1_asset_classification.py` ... `S5_ai_training.py`: the five pipeline stages.
+- `cimba_mongo.py`, `cimba_paths.py`: shared helpers for database and paths.
+- `migrate_spark.py`, `migrate_temperature.py`, `load_daily_temperatures.py`: loaders that take the raw CSVs and write them into MongoDB.
+- `datos/`: daily energy per asset (FCUs, AHUs, pumps).
+- `temepratura1/`: 5-minute temperature readings for FCUs.
+- `temperatura2/`: 5-minute temperature readings for AHUs.
+- `database/operational/`: 5-minute power readings for FCUs (legacy export, kept for reference).
+- `database/assets/`, `database/climate/`: static metadata.
+- `database/degradation/`, `database/models/`: pre-computed outputs from a real pipeline run, so you can compare against your own.
+- `data_snapshots/`: JSON dump of the MongoDB collections, used by the notebook and by the seed script below.
+- `notebooks/CIMBA_pipeline_tour.ipynb`: the guided tour.
+- `tools/`: small helper scripts (Mongo export, Mongo seed, notebook builder).
+
+Pumps have daily energy only (no 5-minute power, no indoor temperature).
+AHUs have daily energy and 5-minute temperature but no 5-minute power.
+FCUs have everything.
+
+## The long way (only if you want to run the pipeline end to end)
+
+If you would like to run the scripts against a real database:
+
+1. Install MongoDB Community Edition and start it on `localhost:27017`.
+2. Create a virtual environment and install the requirements (same as above).
+3. Load the snapshot into your local MongoDB:
+   ```
+   python tools/seed_from_json.py
+   ```
+4. Load the raw CSVs into MongoDB:
+   ```
+   python migrate_spark.py
+   python load_daily_temperatures.py
+   ```
+5. Run the pipeline in this order:
+   ```
+   python S1_asset_classification.py
+   python S2_asset_health_index.py
+   python S3_baseline_usage.py
+   python S5_ai_training.py
+   python S4_degradation_rate.py
+   ```
+
+The default connection string is `mongodb://localhost:27017`. If you need a
+different one, set the `MONGO_URI` environment variable before running.
+
+## Contact
 
 Edgar Segovia, edgarsegovia92@gmail.com

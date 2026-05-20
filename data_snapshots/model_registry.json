@@ -1,0 +1,580 @@
+[
+  {
+    "_id": {
+      "$oid": "69efa89c1da4cf887f053ae4"
+    },
+    "model_id": "rf_pump_v1",
+    "version": 1,
+    "asset_type": "Pump",
+    "model_file": "C:\\YO\\SecondBrain-vault\\CIMBA\\database\\models\\rf_model_Pump.pkl",
+    "features": [
+      "Daily_Fan_Power_Sum",
+      "External_Mean_Temp",
+      "Cumulative_Power_Consumed",
+      "Rolling_7D_Power",
+      "Power_Lag_1",
+      "Daily_Flow_m3h_est",
+      "Cumulative_Flow",
+      "Rolling_7D_Flow"
+    ],
+    "trained_on_asset_ids": [
+      "PUMP_CHW_1",
+      "PUMP_CHW_2",
+      "PUMP_DHW_1",
+      "PUMP_DHW_2",
+      "PUMP_DHW_S",
+      "PUMP_LTHW_1",
+      "PUMP_LTHW_2"
+    ],
+    "validation_asset_ids": [],
+    "applicable_filter": {
+      "asset_type": "Pump"
+    },
+    "applies_to_asset_ids": [
+      "PUMP_CHW_1",
+      "PUMP_CHW_2",
+      "PUMP_DHW_1",
+      "PUMP_DHW_2",
+      "PUMP_DHW_S",
+      "PUMP_LTHW_1",
+      "PUMP_LTHW_2"
+    ],
+    "applies_to_count": 7,
+    "trained_at": "2026-04-27T19:19:07.534733",
+    "n_train_samples": 2693,
+    "n_test_samples": 674,
+    "mse": 0.0001413945455882844,
+    "mae": 0.005506867927339443,
+    "r2": 0.9421668498117407,
+    "feature_importances": {
+      "Daily_Fan_Power_Sum": 0.685757332969574,
+      "Daily_Flow_m3h_est": 0.1891057329181941,
+      "Cumulative_Flow": 0.03887910677897967,
+      "Cumulative_Power_Consumed": 0.02856319943029798,
+      "Rolling_7D_Flow": 0.02825563617045349,
+      "External_Mean_Temp": 0.011659966898954792,
+      "Power_Lag_1": 0.009165984066406119,
+      "Rolling_7D_Power": 0.00861304076713993
+    },
+    "asset_models_distribution": {
+      "ILL100/190-30/2": 4,
+      "DPE 32/125": 2,
+      "Stratos Maxo MS25S": 1
+    },
+    "buildings": [
+      "The Spark"
+    ],
+    "display_name": "Pump RF v1 — Wilo×7",
+    "install_year_range": [
+      2021,
+      2021
+    ],
+    "manufacturers_distribution": {
+      "Wilo": 7
+    },
+    "n_trained_on": 7,
+    "rated_power_kW_range": [
+      1.0,
+      10.0
+    ],
+    "systems": [
+      "Chilled Water",
+      "Domestic Hot Water",
+      "Low Temperature Hot Water"
+    ],
+    "algorithm": "RandomForest",
+    "created_by_user_id": "69e76c1ad8062877415dbb2b"
+  },
+  {
+    "_id": {
+      "$oid": "69efa89c1da4cf887f053ae2"
+    },
+    "model_id": "rf_fcu_v1",
+    "version": 1,
+    "asset_type": "FCU",
+    "model_file": "C:\\YO\\SecondBrain-vault\\CIMBA\\database\\models\\rf_model_FCU.pkl",
+    "features": [
+      "Daily_Fan_Power_Sum",
+      "External_Mean_Temp",
+      "Cumulative_Power_Consumed",
+      "Rolling_7D_Power",
+      "Power_Lag_1"
+    ],
+    "trained_on_asset_ids": [
+      "FCU_01_01",
+      "FCU_02_01",
+      "FCU_03_01",
+      "FCU_04_01",
+      "FCU_05_01",
+      "FCU_06_01",
+      "FCU_07_01",
+      "FCU_08_01"
+    ],
+    "validation_asset_ids": [
+      "FCU_09_01",
+      "FCU_10_01",
+      "FCU_11_01"
+    ],
+    "applicable_filter": {
+      "asset_type": "FCU"
+    },
+    "applies_to_asset_ids": [
+      "FCU_01_01",
+      "FCU_02_01",
+      "FCU_03_01",
+      "FCU_04_01",
+      "FCU_05_01",
+      "FCU_06_01",
+      "FCU_07_01",
+      "FCU_08_01",
+      "FCU_09_01",
+      "FCU_10_01",
+      "FCU_11_01"
+    ],
+    "applies_to_count": 11,
+    "trained_at": "2026-04-27T19:19:04.776499",
+    "n_train_samples": 3078,
+    "n_test_samples": 770,
+    "mse": 0.0028975261315724874,
+    "mae": 0.01555073608570715,
+    "r2": 0.7761138533955431,
+    "feature_importances": {
+      "Daily_Fan_Power_Sum": 0.5601239564362565,
+      "Cumulative_Power_Consumed": 0.2385417228345136,
+      "Rolling_7D_Power": 0.10253776628784471,
+      "External_Mean_Temp": 0.06185713248879495,
+      "Power_Lag_1": 0.03693942195259027
+    },
+    "asset_models_distribution": {
+      "MAT270": 8
+    },
+    "buildings": [
+      "The Spark"
+    ],
+    "display_name": "FCU RF v1 — Ability×8",
+    "install_year_range": [
+      2021,
+      2021
+    ],
+    "manufacturers_distribution": {
+      "Ability": 8
+    },
+    "n_trained_on": 8,
+    "rated_power_kW_range": null,
+    "systems": [
+      "Fan Coil"
+    ],
+    "algorithm": "RandomForest",
+    "created_by_user_id": "69e76c1ad8062877415dbb2b"
+  },
+  {
+    "_id": {
+      "$oid": "69efa89c1da4cf887f053ae3"
+    },
+    "model_id": "rf_ahu_v1",
+    "version": 1,
+    "asset_type": "AHU",
+    "model_file": "C:\\YO\\SecondBrain-vault\\CIMBA\\database\\models\\rf_model_AHU.pkl",
+    "features": [
+      "Daily_Fan_Power_Sum",
+      "External_Mean_Temp",
+      "Cumulative_Power_Consumed",
+      "Rolling_7D_Power",
+      "Power_Lag_1"
+    ],
+    "trained_on_asset_ids": [
+      "AHU_1",
+      "AHU_2",
+      "AHU_Kitchen"
+    ],
+    "validation_asset_ids": [],
+    "applicable_filter": {
+      "asset_type": "AHU"
+    },
+    "applies_to_asset_ids": [
+      "AHU_1",
+      "AHU_2",
+      "AHU_Kitchen"
+    ],
+    "applies_to_count": 3,
+    "trained_at": "2026-04-27T19:19:06.016362",
+    "n_train_samples": 1154,
+    "n_test_samples": 289,
+    "mse": 0.0003732196060279169,
+    "mae": 0.008549116767297879,
+    "r2": 0.7990434730868066,
+    "feature_importances": {
+      "Daily_Fan_Power_Sum": 0.6175033207591225,
+      "Rolling_7D_Power": 0.2390339340419729,
+      "Cumulative_Power_Consumed": 0.09765806648213766,
+      "External_Mean_Temp": 0.02890177020662515,
+      "Power_Lag_1": 0.016902908510141843
+    },
+    "asset_models_distribution": {
+      "ASV-1275-3220-EXT": 1,
+      "ASV-1550-3220-EXT": 1,
+      "Unknown": 1
+    },
+    "buildings": [
+      "The Spark"
+    ],
+    "display_name": "AHU RF v1 — Air Source×2, Unknown×1",
+    "install_year_range": [
+      2021,
+      2021
+    ],
+    "manufacturers_distribution": {
+      "Air Source": 2,
+      "Unknown": 1
+    },
+    "n_trained_on": 3,
+    "rated_power_kW_range": [
+      7.5,
+      30.0
+    ],
+    "systems": [
+      "Air Handling"
+    ],
+    "algorithm": "RandomForest",
+    "created_by_user_id": "69e76c1ad8062877415dbb2b"
+  },
+  {
+    "_id": {
+      "$oid": "69f07f2e65cea4ee4e2806b0"
+    },
+    "model_id": "rf_fcu_v2",
+    "applicable_filter": {
+      "asset_type": "FCU"
+    },
+    "applies_to_asset_ids": [
+      "FCU_01_01",
+      "FCU_02_01",
+      "FCU_03_01",
+      "FCU_04_01",
+      "FCU_05_01",
+      "FCU_06_01",
+      "FCU_07_01",
+      "FCU_08_01",
+      "FCU_09_01",
+      "FCU_10_01",
+      "FCU_11_01"
+    ],
+    "applies_to_count": 11,
+    "asset_models_distribution": {
+      "MAT270": 8
+    },
+    "asset_type": "FCU",
+    "buildings": [
+      "The Spark"
+    ],
+    "display_name": "FCU RF v2 — Ability×8",
+    "feature_importances": {
+      "Daily_Fan_Power_Sum": 0.5030744348178322,
+      "Cumulative_Power_Consumed": 0.19430137526919153,
+      "Daily_Indoor_Temp_Mean": 0.12338661565626413,
+      "Rolling_7D_Power": 0.06247483305697506,
+      "Daily_Indoor_Temp_Range": 0.0432789710052077,
+      "Power_Lag_1": 0.030232080683122883,
+      "Daily_Delta_Indoor_Outdoor": 0.02324471749302483,
+      "External_Mean_Temp": 0.02000697201838161
+    },
+    "features": [
+      "Daily_Fan_Power_Sum",
+      "External_Mean_Temp",
+      "Cumulative_Power_Consumed",
+      "Rolling_7D_Power",
+      "Power_Lag_1",
+      "Daily_Indoor_Temp_Mean",
+      "Daily_Indoor_Temp_Range",
+      "Daily_Delta_Indoor_Outdoor"
+    ],
+    "install_year_range": [
+      2021,
+      2021
+    ],
+    "mae": 0.01279781217037803,
+    "manufacturers_distribution": {
+      "Ability": 8
+    },
+    "model_file": "/opt/render/project/src/database/models/rf_model_FCU.pkl",
+    "mse": 0.0029578116072956047,
+    "n_test_samples": 607,
+    "n_train_samples": 2426,
+    "n_trained_on": 8,
+    "r2": 0.7877634934821759,
+    "rated_power_kW_range": null,
+    "systems": [
+      "Fan Coil"
+    ],
+    "trained_at": "2026-05-10T05:44:47.883517",
+    "trained_on_asset_ids": [
+      "FCU_01_01",
+      "FCU_02_01",
+      "FCU_03_01",
+      "FCU_04_01",
+      "FCU_05_01",
+      "FCU_06_01",
+      "FCU_07_01",
+      "FCU_08_01"
+    ],
+    "validation_asset_ids": [
+      "FCU_09_01",
+      "FCU_10_01",
+      "FCU_11_01"
+    ],
+    "version": 2,
+    "algorithm": "RandomForest",
+    "created_by_user_id": "69e76c1ad8062877415dbb2b"
+  },
+  {
+    "_id": {
+      "$oid": "69f07f2e65cea4ee4e2806b1"
+    },
+    "model_id": "rf_ahu_v2",
+    "applicable_filter": {
+      "asset_type": "AHU"
+    },
+    "applies_to_asset_ids": [
+      "AHU_1",
+      "AHU_2",
+      "AHU_Kitchen"
+    ],
+    "applies_to_count": 3,
+    "asset_models_distribution": {
+      "ASV-1275-3220-EXT": 1,
+      "Unknown": 1,
+      "ASV-1550-3220-EXT": 1
+    },
+    "asset_type": "AHU",
+    "buildings": [
+      "The Spark"
+    ],
+    "display_name": "AHU RF v2 — Air Source×2, Unknown×1",
+    "feature_importances": {
+      "Daily_Fan_Power_Sum": 0.5744175393365654,
+      "Rolling_7D_Power": 0.22451084484076056,
+      "Daily_Indoor_Temp_Range": 0.12472317473722709,
+      "Daily_Indoor_Temp_Mean": 0.03122536386764028,
+      "Cumulative_Power_Consumed": 0.02549447526333756,
+      "Power_Lag_1": 0.008821188755752978,
+      "Daily_Delta_Indoor_Outdoor": 0.006459702248050797,
+      "External_Mean_Temp": 0.004347710950665346
+    },
+    "features": [
+      "Daily_Fan_Power_Sum",
+      "External_Mean_Temp",
+      "Cumulative_Power_Consumed",
+      "Rolling_7D_Power",
+      "Power_Lag_1",
+      "Daily_Indoor_Temp_Mean",
+      "Daily_Indoor_Temp_Range",
+      "Daily_Delta_Indoor_Outdoor"
+    ],
+    "install_year_range": [
+      2021,
+      2021
+    ],
+    "mae": 0.005974903285799174,
+    "manufacturers_distribution": {
+      "Air Source": 2,
+      "Unknown": 1
+    },
+    "model_file": "/opt/render/project/src/database/models/rf_model_AHU.pkl",
+    "mse": 0.00029951189702861407,
+    "n_test_samples": 273,
+    "n_train_samples": 1091,
+    "n_trained_on": 3,
+    "r2": 0.8498097354800818,
+    "rated_power_kW_range": [
+      7.5,
+      30.0
+    ],
+    "systems": [
+      "Air Handling"
+    ],
+    "trained_at": "2026-05-10T05:44:55.793209",
+    "trained_on_asset_ids": [
+      "AHU_1",
+      "AHU_2",
+      "AHU_Kitchen"
+    ],
+    "validation_asset_ids": [],
+    "version": 2,
+    "algorithm": "RandomForest",
+    "created_by_user_id": "69e76c1ad8062877415dbb2b"
+  },
+  {
+    "_id": {
+      "$oid": "69f07f2e65cea4ee4e2806b2"
+    },
+    "model_id": "rf_pump_v2",
+    "applicable_filter": {
+      "asset_type": "Pump"
+    },
+    "applies_to_asset_ids": [
+      "PUMP_CHW_1",
+      "PUMP_CHW_2",
+      "PUMP_DHW_1",
+      "PUMP_DHW_2",
+      "PUMP_DHW_S",
+      "PUMP_LTHW_1",
+      "PUMP_LTHW_2"
+    ],
+    "applies_to_count": 7,
+    "asset_models_distribution": {
+      "DPE 32/125": 2,
+      "ILL100/190-30/2": 4,
+      "Stratos Maxo MS25S": 1
+    },
+    "asset_type": "Pump",
+    "buildings": [
+      "The Spark"
+    ],
+    "display_name": "Pump RF v2 — Wilo×7",
+    "feature_importances": {
+      "Daily_Fan_Power_Sum": 0.6892319466901983,
+      "Daily_Flow_m3h_est": 0.1851418832341373,
+      "Rolling_7D_Flow": 0.03444196837873088,
+      "Cumulative_Flow": 0.033818892020839195,
+      "Cumulative_Power_Consumed": 0.029734098753307004,
+      "External_Mean_Temp": 0.010481031235772324,
+      "Power_Lag_1": 0.008983320646541578,
+      "Rolling_7D_Power": 0.008166859040473462
+    },
+    "features": [
+      "Daily_Fan_Power_Sum",
+      "External_Mean_Temp",
+      "Cumulative_Power_Consumed",
+      "Rolling_7D_Power",
+      "Power_Lag_1",
+      "Daily_Flow_m3h_est",
+      "Cumulative_Flow",
+      "Rolling_7D_Flow"
+    ],
+    "install_year_range": [
+      2021,
+      2021
+    ],
+    "mae": 0.0054873300811848396,
+    "manufacturers_distribution": {
+      "Wilo": 7
+    },
+    "model_file": "/opt/render/project/src/database/models/rf_model_Pump.pkl",
+    "mse": 0.00015455966219542495,
+    "n_test_samples": 682,
+    "n_train_samples": 2727,
+    "n_trained_on": 7,
+    "r2": 0.9356375253690298,
+    "rated_power_kW_range": [
+      1.0,
+      10.0
+    ],
+    "systems": [
+      "Chilled Water",
+      "Domestic Hot Water",
+      "Low Temperature Hot Water"
+    ],
+    "trained_at": "2026-05-10T05:45:08.184068",
+    "trained_on_asset_ids": [
+      "PUMP_CHW_1",
+      "PUMP_CHW_2",
+      "PUMP_DHW_1",
+      "PUMP_DHW_2",
+      "PUMP_DHW_S",
+      "PUMP_LTHW_1",
+      "PUMP_LTHW_2"
+    ],
+    "validation_asset_ids": [],
+    "version": 2,
+    "algorithm": "RandomForest",
+    "created_by_user_id": "69e76c1ad8062877415dbb2b"
+  },
+  {
+    "_id": {
+      "$oid": "6a02fccca6c5add11df46f56"
+    },
+    "model_id": "rf_fcu_es1_1778580680",
+    "version": 1778580684,
+    "asset_type": "FCU",
+    "display_name": "es1",
+    "algorithm": "RandomForest",
+    "model_file": "/opt/render/project/src/database/models/rf_fcu_es1_1778580680.pkl",
+    "trained_at": {
+      "$date": "2026-05-12T10:11:24.565000"
+    },
+    "trained_on_asset_ids": [
+      "FCU_02_01",
+      "FCU_08_01",
+      "FCU_06_01",
+      "FCU_07_01",
+      "FCU_09_01",
+      "FCU_11_01",
+      "FCU_03_01",
+      "FCU_04_01",
+      "FCU_10_01",
+      "FCU_01_01",
+      "FCU_05_01"
+    ],
+    "validation_asset_ids": [],
+    "n_trained_on": 11,
+    "applicable_filter": {
+      "asset_type": "FCU"
+    },
+    "applies_to_asset_ids": [
+      "FCU_02_01",
+      "FCU_08_01",
+      "FCU_06_01",
+      "FCU_07_01",
+      "FCU_09_01",
+      "FCU_11_01",
+      "FCU_03_01",
+      "FCU_04_01",
+      "FCU_10_01",
+      "FCU_01_01",
+      "FCU_05_01"
+    ],
+    "applies_to_count": 11,
+    "features": [
+      "Daily_Fan_Power_Sum",
+      "External_Mean_Temp",
+      "Cumulative_Power_Consumed",
+      "Rolling_7D_Power",
+      "Power_Lag_1",
+      "Daily_Indoor_Temp_Mean",
+      "Daily_Indoor_Temp_Range",
+      "Daily_Delta_Indoor_Outdoor"
+    ],
+    "n_train_samples": 1724,
+    "n_test_samples": 432,
+    "r2": 0.684322912960472,
+    "mae": 1.6103695673240637,
+    "feature_importances": {
+      "Daily_Fan_Power_Sum": 0.4109172065563044,
+      "External_Mean_Temp": 0.03339976502792767,
+      "Cumulative_Power_Consumed": 0.0473458641787255,
+      "Rolling_7D_Power": 0.3767239938664523,
+      "Power_Lag_1": 0.05447947767991299,
+      "Daily_Indoor_Temp_Mean": 0.03848427605710349,
+      "Daily_Indoor_Temp_Range": 0.0,
+      "Daily_Delta_Indoor_Outdoor": 0.03864941663357373
+    },
+    "manufacturers_distribution": {
+      "Ability": 11
+    },
+    "asset_models_distribution": {
+      "MAT270": 11
+    },
+    "buildings": [
+      "The Spark"
+    ],
+    "systems": [
+      "Fan Coil"
+    ],
+    "rated_power_kW_range": null,
+    "install_year_range": [
+      2021,
+      2021
+    ],
+    "created_by_user_id": "69e76c1ad8062877415dbb2b"
+  }
+]

@@ -1,0 +1,7268 @@
+[
+  {
+    "_id": {
+      "$oid": "69ef497c737f5418bb803ed1"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-04-20T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 11.1,
+    "temp_mean": 7.6,
+    "temp_min": 4.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef497d737f5418bb803ed2"
+    },
+    "date": {
+      "$date": "2026-04-21T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 11.2,
+    "temp_mean": 8.0,
+    "temp_min": 5.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef497d737f5418bb803ed3"
+    },
+    "date": {
+      "$date": "2026-04-22T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 9.9,
+    "temp_mean": 7.1,
+    "temp_min": 4.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef497d737f5418bb803ed4"
+    },
+    "date": {
+      "$date": "2026-04-23T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 12.1,
+    "temp_mean": 7.2,
+    "temp_min": 3.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef497d737f5418bb803ed5"
+    },
+    "date": {
+      "$date": "2026-04-24T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 18.5,
+    "temp_mean": 9.6,
+    "temp_min": 0.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef497d737f5418bb803ed6"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-04-25T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 11.9,
+    "temp_mean": 8.3,
+    "temp_min": 4.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef497d737f5418bb803ed7"
+    },
+    "date": {
+      "$date": "2026-04-26T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 16.5,
+    "temp_mean": 10.0,
+    "temp_min": 3.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef497e737f5418bb803ed8"
+    },
+    "date": {
+      "$date": "2026-04-27T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 14.9,
+    "temp_mean": 10.8,
+    "temp_min": 7.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef497e737f5418bb803ed9"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-04-28T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 10.8,
+    "temp_mean": 8.7,
+    "temp_min": 5.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef497e737f5418bb803eda"
+    },
+    "date": {
+      "$date": "2026-04-29T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 14.3,
+    "temp_mean": 9.1,
+    "temp_min": 3.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef497e737f5418bb803edb"
+    },
+    "date": {
+      "$date": "2026-04-30T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 16.6,
+    "temp_mean": 10.5,
+    "temp_min": 4.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef497e737f5418bb803edc"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-05-01T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 23.6,
+    "temp_mean": 14.3,
+    "temp_min": 4.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef497e737f5418bb803edd"
+    },
+    "date": {
+      "$date": "2026-05-02T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 18.4,
+    "temp_mean": 14.2,
+    "temp_min": 9.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef497e737f5418bb803ede"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-05-03T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 11.1,
+    "temp_mean": 9.1,
+    "temp_min": 7.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef497e737f5418bb803edf"
+    },
+    "date": {
+      "$date": "2026-05-04T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 16.2,
+    "temp_mean": 10.8,
+    "temp_min": 5.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef497e737f5418bb803ee0"
+    },
+    "date": {
+      "$date": "2026-05-05T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 10.3,
+    "temp_mean": 7.8,
+    "temp_min": 4.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef497e737f5418bb803ee1"
+    },
+    "date": {
+      "$date": "2026-05-06T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 9.2,
+    "temp_mean": 6.1,
+    "temp_min": 2.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef497e737f5418bb803ee2"
+    },
+    "date": {
+      "$date": "2026-05-07T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 12.6,
+    "temp_mean": 8.2,
+    "temp_min": 2.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef497e737f5418bb803ee3"
+    },
+    "date": {
+      "$date": "2026-05-08T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 16.0,
+    "temp_mean": 11.3,
+    "temp_min": 7.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef497e737f5418bb803ee4"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-05-09T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 10.3,
+    "temp_mean": 8.6,
+    "temp_min": 6.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef497e737f5418bb803ee5"
+    },
+    "date": {
+      "$date": "2026-05-10T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 12.2,
+    "temp_mean": 7.9,
+    "temp_min": 2.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef497e737f5418bb803ee6"
+    },
+    "date": {
+      "$date": "2026-05-11T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 8.5,
+    "temp_mean": 6.7,
+    "temp_min": 3.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef497e737f5418bb803ee7"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-05-12T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 13.7,
+    "temp_mean": 8.7,
+    "temp_min": 3.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef497e737f5418bb803ee8"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-01-01T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 7.5,
+    "temp_mean": 4.9,
+    "temp_min": 0.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef497e737f5418bb803ee9"
+    },
+    "date": {
+      "$date": "2025-01-02T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 1.5,
+    "temp_mean": -0.6,
+    "temp_min": -2.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef497e737f5418bb803eea"
+    },
+    "date": {
+      "$date": "2025-01-03T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 2.7,
+    "temp_mean": 0.2,
+    "temp_min": -2.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef497e737f5418bb803eeb"
+    },
+    "date": {
+      "$date": "2025-01-04T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 3.0,
+    "temp_mean": 0.3,
+    "temp_min": -2.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef497e737f5418bb803eec"
+    },
+    "date": {
+      "$date": "2025-01-05T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 2.2,
+    "temp_mean": 1.0,
+    "temp_min": -0.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef497e737f5418bb803eed"
+    },
+    "date": {
+      "$date": "2025-01-06T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 3.2,
+    "temp_mean": 2.4,
+    "temp_min": 0.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803eee"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-01-07T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 2.8,
+    "temp_mean": 0.6,
+    "temp_min": -0.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803eef"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-01-08T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 2.2,
+    "temp_mean": -0.4,
+    "temp_min": -2.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803ef0"
+    },
+    "date": {
+      "$date": "2025-01-09T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 1.6,
+    "temp_mean": -1.4,
+    "temp_min": -2.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803ef1"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-01-10T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 3.1,
+    "temp_mean": -0.5,
+    "temp_min": -2.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803ef2"
+    },
+    "date": {
+      "$date": "2025-01-11T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 1.2,
+    "temp_mean": -1.6,
+    "temp_min": -3.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803ef3"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-01-12T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 4.8,
+    "temp_mean": 0.7,
+    "temp_min": -2.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803ef4"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-01-13T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 9.9,
+    "temp_mean": 7.1,
+    "temp_min": 2.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803ef5"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-01-14T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 11.2,
+    "temp_mean": 9.5,
+    "temp_min": 5.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803ef6"
+    },
+    "date": {
+      "$date": "2025-01-15T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 10.9,
+    "temp_mean": 6.8,
+    "temp_min": 3.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803ef7"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-01-16T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 10.9,
+    "temp_mean": 5.8,
+    "temp_min": 2.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803ef8"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-01-17T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 9.1,
+    "temp_mean": 6.4,
+    "temp_min": 4.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803ef9"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-01-18T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 5.8,
+    "temp_mean": 2.3,
+    "temp_min": -2.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803efa"
+    },
+    "date": {
+      "$date": "2025-01-19T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 1.5,
+    "temp_mean": -0.3,
+    "temp_min": -2.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803efb"
+    },
+    "date": {
+      "$date": "2025-01-20T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 5.0,
+    "temp_mean": 2.3,
+    "temp_min": 0.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803efc"
+    },
+    "date": {
+      "$date": "2025-01-21T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 7.6,
+    "temp_mean": 3.4,
+    "temp_min": 0.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803efd"
+    },
+    "date": {
+      "$date": "2025-01-22T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 4.1,
+    "temp_mean": 0.7,
+    "temp_min": -1.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803efe"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-01-23T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 4.2,
+    "temp_mean": 2.0,
+    "temp_min": -1.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803eff"
+    },
+    "date": {
+      "$date": "2025-01-24T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 8.9,
+    "temp_mean": 5.5,
+    "temp_min": 2.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803f00"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-01-25T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 5.7,
+    "temp_mean": 3.1,
+    "temp_min": 1.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803f01"
+    },
+    "date": {
+      "$date": "2025-01-26T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 4.6,
+    "temp_mean": 2.6,
+    "temp_min": 0.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803f02"
+    },
+    "date": {
+      "$date": "2025-01-27T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 6.2,
+    "temp_mean": 4.5,
+    "temp_min": 2.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803f03"
+    },
+    "date": {
+      "$date": "2025-01-28T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 6.9,
+    "temp_mean": 4.8,
+    "temp_min": 2.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803f04"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-01-29T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 6.8,
+    "temp_mean": 3.8,
+    "temp_min": 1.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803f05"
+    },
+    "date": {
+      "$date": "2025-01-30T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 5.7,
+    "temp_mean": 2.4,
+    "temp_min": 0.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803f06"
+    },
+    "date": {
+      "$date": "2025-01-31T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 5.8,
+    "temp_mean": 3.7,
+    "temp_min": 2.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803f07"
+    },
+    "date": {
+      "$date": "2025-02-01T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 6.9,
+    "temp_mean": 3.6,
+    "temp_min": 0.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803f08"
+    },
+    "date": {
+      "$date": "2025-02-02T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 8.0,
+    "temp_mean": 4.3,
+    "temp_min": 2.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803f09"
+    },
+    "date": {
+      "$date": "2025-02-03T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 9.6,
+    "temp_mean": 7.6,
+    "temp_min": 4.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803f0a"
+    },
+    "date": {
+      "$date": "2025-02-04T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 10.2,
+    "temp_mean": 8.7,
+    "temp_min": 5.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803f0b"
+    },
+    "date": {
+      "$date": "2025-02-05T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 7.6,
+    "temp_mean": 5.1,
+    "temp_min": 2.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef497f737f5418bb803f0c"
+    },
+    "date": {
+      "$date": "2025-02-06T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 7.8,
+    "temp_mean": 2.1,
+    "temp_min": -1.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4980737f5418bb803f0d"
+    },
+    "date": {
+      "$date": "2025-02-07T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 5.6,
+    "temp_mean": 3.3,
+    "temp_min": 0.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4980737f5418bb803f0e"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-02-08T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 4.3,
+    "temp_mean": 3.6,
+    "temp_min": 3.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef4980737f5418bb803f0f"
+    },
+    "date": {
+      "$date": "2025-02-09T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 5.8,
+    "temp_mean": 5.0,
+    "temp_min": 3.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4980737f5418bb803f10"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-02-10T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 4.4,
+    "temp_mean": 3.8,
+    "temp_min": 3.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4980737f5418bb803f11"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-02-11T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 5.5,
+    "temp_mean": 4.3,
+    "temp_min": 3.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4980737f5418bb803f12"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-02-12T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 5.3,
+    "temp_mean": 4.2,
+    "temp_min": 3.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4980737f5418bb803f13"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-02-13T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 5.1,
+    "temp_mean": 3.5,
+    "temp_min": 2.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4980737f5418bb803f14"
+    },
+    "date": {
+      "$date": "2025-02-14T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 4.3,
+    "temp_mean": 2.4,
+    "temp_min": 0.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4980737f5418bb803f15"
+    },
+    "date": {
+      "$date": "2025-02-15T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 3.3,
+    "temp_mean": 2.0,
+    "temp_min": 0.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4980737f5418bb803f16"
+    },
+    "date": {
+      "$date": "2025-02-16T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 5.1,
+    "temp_mean": 3.2,
+    "temp_min": 1.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef4980737f5418bb803f17"
+    },
+    "date": {
+      "$date": "2025-02-17T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 3.5,
+    "temp_mean": 1.4,
+    "temp_min": -0.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4980737f5418bb803f18"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-02-18T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 3.9,
+    "temp_mean": 1.5,
+    "temp_min": 0.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4980737f5418bb803f19"
+    },
+    "date": {
+      "$date": "2025-02-19T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 4.7,
+    "temp_mean": 2.3,
+    "temp_min": 0.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef4980737f5418bb803f1a"
+    },
+    "date": {
+      "$date": "2025-02-20T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 14.6,
+    "temp_mean": 10.1,
+    "temp_min": 4.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4980737f5418bb803f1b"
+    },
+    "date": {
+      "$date": "2025-02-21T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 14.9,
+    "temp_mean": 11.4,
+    "temp_min": 8.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4980737f5418bb803f1c"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-02-22T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 12.1,
+    "temp_mean": 9.1,
+    "temp_min": 6.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4980737f5418bb803f1d"
+    },
+    "date": {
+      "$date": "2025-02-23T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 11.4,
+    "temp_mean": 8.6,
+    "temp_min": 5.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4980737f5418bb803f1e"
+    },
+    "date": {
+      "$date": "2025-02-24T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 11.2,
+    "temp_mean": 9.5,
+    "temp_min": 6.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4980737f5418bb803f1f"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-02-25T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 9.2,
+    "temp_mean": 6.2,
+    "temp_min": 4.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4980737f5418bb803f20"
+    },
+    "date": {
+      "$date": "2025-02-26T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 7.6,
+    "temp_mean": 3.3,
+    "temp_min": 1.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4980737f5418bb803f21"
+    },
+    "date": {
+      "$date": "2025-02-27T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 8.6,
+    "temp_mean": 4.1,
+    "temp_min": 0.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f22"
+    },
+    "date": {
+      "$date": "2025-02-28T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 10.0,
+    "temp_mean": 4.4,
+    "temp_min": 0.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f23"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-03-01T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 10.6,
+    "temp_mean": 5.3,
+    "temp_min": 1.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f24"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-03-02T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 11.1,
+    "temp_mean": 6.6,
+    "temp_min": 2.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f25"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-03-03T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 11.9,
+    "temp_mean": 8.9,
+    "temp_min": 6.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f26"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-03-04T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 10.7,
+    "temp_mean": 7.7,
+    "temp_min": 5.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f27"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-03-05T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 10.9,
+    "temp_mean": 8.3,
+    "temp_min": 6.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f28"
+    },
+    "date": {
+      "$date": "2025-03-06T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 15.4,
+    "temp_mean": 9.5,
+    "temp_min": 4.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f29"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-03-07T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 12.7,
+    "temp_mean": 9.7,
+    "temp_min": 7.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f2a"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-03-08T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 15.4,
+    "temp_mean": 9.9,
+    "temp_min": 6.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f2b"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-03-09T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 13.4,
+    "temp_mean": 6.9,
+    "temp_min": 2.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f2c"
+    },
+    "date": {
+      "$date": "2025-03-10T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 8.4,
+    "temp_mean": 4.5,
+    "temp_min": 0.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f2d"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-03-11T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 7.8,
+    "temp_mean": 4.4,
+    "temp_min": 1.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f2e"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-03-12T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 6.2,
+    "temp_mean": 3.6,
+    "temp_min": 1.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f2f"
+    },
+    "date": {
+      "$date": "2025-03-13T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 5.7,
+    "temp_mean": 3.4,
+    "temp_min": 0.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f30"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-03-14T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 7.1,
+    "temp_mean": 3.5,
+    "temp_min": 0.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f31"
+    },
+    "date": {
+      "$date": "2025-03-15T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 8.2,
+    "temp_mean": 3.4,
+    "temp_min": -0.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f32"
+    },
+    "date": {
+      "$date": "2025-03-16T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 8.2,
+    "temp_mean": 4.3,
+    "temp_min": -0.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f33"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-03-17T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 7.8,
+    "temp_mean": 5.0,
+    "temp_min": 1.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f34"
+    },
+    "date": {
+      "$date": "2025-03-18T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 8.2,
+    "temp_mean": 3.0,
+    "temp_min": -1.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f35"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-03-19T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 11.1,
+    "temp_mean": 3.6,
+    "temp_min": -2.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f36"
+    },
+    "date": {
+      "$date": "2025-03-20T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 13.7,
+    "temp_mean": 5.5,
+    "temp_min": -0.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f37"
+    },
+    "date": {
+      "$date": "2025-03-21T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 12.6,
+    "temp_mean": 7.4,
+    "temp_min": 2.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f38"
+    },
+    "date": {
+      "$date": "2025-03-22T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 13.6,
+    "temp_mean": 9.4,
+    "temp_min": 7.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f39"
+    },
+    "date": {
+      "$date": "2025-03-23T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 9.7,
+    "temp_mean": 7.0,
+    "temp_min": 5.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f3a"
+    },
+    "date": {
+      "$date": "2025-03-24T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 13.2,
+    "temp_mean": 7.5,
+    "temp_min": 1.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f3b"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-03-25T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 15.1,
+    "temp_mean": 10.5,
+    "temp_min": 7.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f3c"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-03-26T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 15.0,
+    "temp_mean": 8.8,
+    "temp_min": 3.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4981737f5418bb803f3d"
+    },
+    "date": {
+      "$date": "2025-03-27T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 13.8,
+    "temp_mean": 11.2,
+    "temp_min": 8.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f3e"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-03-28T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 10.6,
+    "temp_mean": 8.3,
+    "temp_min": 5.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f3f"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-03-29T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 10.9,
+    "temp_mean": 7.8,
+    "temp_min": 4.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f40"
+    },
+    "date": {
+      "$date": "2025-03-30T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 15.1,
+    "temp_mean": 10.1,
+    "temp_min": 6.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f41"
+    },
+    "date": {
+      "$date": "2025-03-31T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 16.3,
+    "temp_mean": 10.0,
+    "temp_min": 3.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f42"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-04-01T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 13.5,
+    "temp_mean": 8.6,
+    "temp_min": 4.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f43"
+    },
+    "date": {
+      "$date": "2025-04-02T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 12.1,
+    "temp_mean": 7.2,
+    "temp_min": 2.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f44"
+    },
+    "date": {
+      "$date": "2025-04-03T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 12.4,
+    "temp_mean": 7.7,
+    "temp_min": 3.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f45"
+    },
+    "date": {
+      "$date": "2025-04-04T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 11.5,
+    "temp_mean": 7.3,
+    "temp_min": 3.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f46"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-04-05T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 9.1,
+    "temp_mean": 6.5,
+    "temp_min": 4.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f47"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-04-06T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 11.6,
+    "temp_mean": 6.5,
+    "temp_min": 2.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f48"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-04-07T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 13.2,
+    "temp_mean": 6.6,
+    "temp_min": 0.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f49"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-04-08T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 14.2,
+    "temp_mean": 7.5,
+    "temp_min": 1.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f4a"
+    },
+    "date": {
+      "$date": "2025-04-09T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 8.8,
+    "temp_mean": 5.8,
+    "temp_min": 1.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f4b"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-04-10T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 17.0,
+    "temp_mean": 9.6,
+    "temp_min": 1.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f4c"
+    },
+    "date": {
+      "$date": "2025-04-11T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 19.8,
+    "temp_mean": 13.0,
+    "temp_min": 8.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f4d"
+    },
+    "date": {
+      "$date": "2025-04-12T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 19.6,
+    "temp_mean": 12.6,
+    "temp_min": 5.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f4e"
+    },
+    "date": {
+      "$date": "2025-04-13T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 13.1,
+    "temp_mean": 10.2,
+    "temp_min": 5.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f4f"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-04-14T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 15.1,
+    "temp_mean": 9.6,
+    "temp_min": 3.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f50"
+    },
+    "date": {
+      "$date": "2025-04-15T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 13.4,
+    "temp_mean": 9.9,
+    "temp_min": 6.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f51"
+    },
+    "date": {
+      "$date": "2025-04-16T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 10.9,
+    "temp_mean": 8.5,
+    "temp_min": 6.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f52"
+    },
+    "date": {
+      "$date": "2025-04-17T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 13.8,
+    "temp_mean": 9.6,
+    "temp_min": 6.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f53"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-04-18T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 13.1,
+    "temp_mean": 8.6,
+    "temp_min": 3.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f54"
+    },
+    "date": {
+      "$date": "2025-04-19T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 11.4,
+    "temp_mean": 8.5,
+    "temp_min": 7.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f55"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-04-20T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 11.6,
+    "temp_mean": 8.2,
+    "temp_min": 4.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4982737f5418bb803f56"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-04-21T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 13.1,
+    "temp_mean": 8.8,
+    "temp_min": 4.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f57"
+    },
+    "date": {
+      "$date": "2025-04-22T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 15.4,
+    "temp_mean": 10.5,
+    "temp_min": 5.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f58"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-04-23T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 13.6,
+    "temp_mean": 9.6,
+    "temp_min": 4.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f59"
+    },
+    "date": {
+      "$date": "2025-04-24T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 12.6,
+    "temp_mean": 8.9,
+    "temp_min": 6.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f5a"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-04-25T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 12.1,
+    "temp_mean": 8.1,
+    "temp_min": 3.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f5b"
+    },
+    "date": {
+      "$date": "2025-04-26T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 15.9,
+    "temp_mean": 10.2,
+    "temp_min": 4.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f5c"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-04-27T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 18.0,
+    "temp_mean": 13.3,
+    "temp_min": 9.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f5d"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-04-28T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 18.6,
+    "temp_mean": 13.8,
+    "temp_min": 9.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f5e"
+    },
+    "date": {
+      "$date": "2025-04-29T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 24.9,
+    "temp_mean": 16.7,
+    "temp_min": 8.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f5f"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-04-30T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 25.2,
+    "temp_mean": 18.1,
+    "temp_min": 10.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f60"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-05-01T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 24.4,
+    "temp_mean": 17.3,
+    "temp_min": 10.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f61"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-05-02T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 17.6,
+    "temp_mean": 12.6,
+    "temp_min": 7.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f62"
+    },
+    "date": {
+      "$date": "2025-05-03T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 15.6,
+    "temp_mean": 11.0,
+    "temp_min": 6.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f63"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-05-04T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 10.4,
+    "temp_mean": 7.7,
+    "temp_min": 5.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f64"
+    },
+    "date": {
+      "$date": "2025-05-05T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 10.7,
+    "temp_mean": 8.2,
+    "temp_min": 5.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f65"
+    },
+    "date": {
+      "$date": "2025-05-06T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 19.0,
+    "temp_mean": 10.1,
+    "temp_min": 1.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f66"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-05-07T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 13.4,
+    "temp_mean": 10.0,
+    "temp_min": 6.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f67"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-05-08T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 12.4,
+    "temp_mean": 9.4,
+    "temp_min": 5.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f68"
+    },
+    "date": {
+      "$date": "2025-05-09T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 19.8,
+    "temp_mean": 12.3,
+    "temp_min": 4.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f69"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-05-10T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 21.4,
+    "temp_mean": 14.9,
+    "temp_min": 7.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f6a"
+    },
+    "date": {
+      "$date": "2025-05-11T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 19.4,
+    "temp_mean": 13.8,
+    "temp_min": 8.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f6b"
+    },
+    "date": {
+      "$date": "2025-05-12T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 19.7,
+    "temp_mean": 13.9,
+    "temp_min": 8.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f6c"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-05-13T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 18.8,
+    "temp_mean": 13.3,
+    "temp_min": 8.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f6d"
+    },
+    "date": {
+      "$date": "2025-05-14T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 15.6,
+    "temp_mean": 11.6,
+    "temp_min": 9.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f6e"
+    },
+    "date": {
+      "$date": "2025-05-15T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 15.1,
+    "temp_mean": 10.9,
+    "temp_min": 6.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f6f"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-05-16T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 15.6,
+    "temp_mean": 11.1,
+    "temp_min": 5.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f70"
+    },
+    "date": {
+      "$date": "2025-05-17T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 18.0,
+    "temp_mean": 12.6,
+    "temp_min": 9.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f71"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-05-18T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 13.4,
+    "temp_mean": 10.7,
+    "temp_min": 8.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f72"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-05-19T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 16.0,
+    "temp_mean": 12.2,
+    "temp_min": 8.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef4983737f5418bb803f73"
+    },
+    "date": {
+      "$date": "2025-05-20T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 19.0,
+    "temp_mean": 13.2,
+    "temp_min": 7.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f74"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-05-21T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 14.6,
+    "temp_mean": 11.3,
+    "temp_min": 7.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f75"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-05-22T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 13.0,
+    "temp_mean": 10.4,
+    "temp_min": 7.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f76"
+    },
+    "date": {
+      "$date": "2025-05-23T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 17.1,
+    "temp_mean": 11.1,
+    "temp_min": 4.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f77"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-05-24T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 20.4,
+    "temp_mean": 15.6,
+    "temp_min": 11.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f78"
+    },
+    "date": {
+      "$date": "2025-05-25T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 15.2,
+    "temp_mean": 13.4,
+    "temp_min": 9.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f79"
+    },
+    "date": {
+      "$date": "2025-05-26T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 14.4,
+    "temp_mean": 11.6,
+    "temp_min": 8.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f7a"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-05-27T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 15.2,
+    "temp_mean": 11.6,
+    "temp_min": 8.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f7b"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-05-28T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 16.8,
+    "temp_mean": 12.8,
+    "temp_min": 8.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f7c"
+    },
+    "date": {
+      "$date": "2025-05-29T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 19.0,
+    "temp_mean": 14.9,
+    "temp_min": 10.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f7d"
+    },
+    "date": {
+      "$date": "2025-05-30T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 20.3,
+    "temp_mean": 17.1,
+    "temp_min": 13.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f7e"
+    },
+    "date": {
+      "$date": "2025-05-31T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 20.5,
+    "temp_mean": 16.4,
+    "temp_min": 12.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f7f"
+    },
+    "date": {
+      "$date": "2025-06-01T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 17.0,
+    "temp_mean": 13.7,
+    "temp_min": 10.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f80"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-06-02T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 17.0,
+    "temp_mean": 13.4,
+    "temp_min": 9.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f81"
+    },
+    "date": {
+      "$date": "2025-06-03T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 15.6,
+    "temp_mean": 13.1,
+    "temp_min": 10.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f82"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-06-04T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 15.1,
+    "temp_mean": 11.8,
+    "temp_min": 7.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f83"
+    },
+    "date": {
+      "$date": "2025-06-05T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 16.4,
+    "temp_mean": 12.3,
+    "temp_min": 9.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f84"
+    },
+    "date": {
+      "$date": "2025-06-06T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 15.5,
+    "temp_mean": 11.8,
+    "temp_min": 8.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f85"
+    },
+    "date": {
+      "$date": "2025-06-07T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 14.4,
+    "temp_mean": 11.2,
+    "temp_min": 8.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f86"
+    },
+    "date": {
+      "$date": "2025-06-08T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 15.8,
+    "temp_mean": 11.5,
+    "temp_min": 7.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f87"
+    },
+    "date": {
+      "$date": "2025-06-09T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 15.8,
+    "temp_mean": 12.6,
+    "temp_min": 9.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f88"
+    },
+    "date": {
+      "$date": "2025-06-10T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 18.5,
+    "temp_mean": 14.7,
+    "temp_min": 11.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f89"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-06-11T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 23.1,
+    "temp_mean": 15.6,
+    "temp_min": 7.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f8a"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-06-12T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 17.9,
+    "temp_mean": 15.5,
+    "temp_min": 10.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f8b"
+    },
+    "date": {
+      "$date": "2025-06-13T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 24.0,
+    "temp_mean": 18.9,
+    "temp_min": 14.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f8c"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-06-14T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 21.1,
+    "temp_mean": 16.0,
+    "temp_min": 13.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f8d"
+    },
+    "date": {
+      "$date": "2025-06-15T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 19.8,
+    "temp_mean": 15.8,
+    "temp_min": 13.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f8e"
+    },
+    "date": {
+      "$date": "2025-06-16T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 22.5,
+    "temp_mean": 17.6,
+    "temp_min": 13.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f8f"
+    },
+    "date": {
+      "$date": "2025-06-17T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 21.0,
+    "temp_mean": 17.4,
+    "temp_min": 14.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f90"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-06-18T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 20.8,
+    "temp_mean": 16.0,
+    "temp_min": 12.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4984737f5418bb803f91"
+    },
+    "date": {
+      "$date": "2025-06-19T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 21.6,
+    "temp_mean": 17.2,
+    "temp_min": 11.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803f92"
+    },
+    "date": {
+      "$date": "2025-06-20T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 30.5,
+    "temp_mean": 22.5,
+    "temp_min": 14.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803f93"
+    },
+    "date": {
+      "$date": "2025-06-21T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 29.4,
+    "temp_mean": 22.9,
+    "temp_min": 18.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803f94"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-06-22T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 20.1,
+    "temp_mean": 17.6,
+    "temp_min": 13.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803f95"
+    },
+    "date": {
+      "$date": "2025-06-23T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 18.6,
+    "temp_mean": 14.8,
+    "temp_min": 10.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803f96"
+    },
+    "date": {
+      "$date": "2025-06-24T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 20.3,
+    "temp_mean": 17.0,
+    "temp_min": 14.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803f97"
+    },
+    "date": {
+      "$date": "2025-06-25T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 22.2,
+    "temp_mean": 17.9,
+    "temp_min": 13.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803f98"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-06-26T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 20.2,
+    "temp_mean": 17.2,
+    "temp_min": 14.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803f99"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-06-27T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 21.6,
+    "temp_mean": 17.5,
+    "temp_min": 13.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803f9a"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-06-28T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 22.2,
+    "temp_mean": 19.9,
+    "temp_min": 17.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803f9b"
+    },
+    "date": {
+      "$date": "2025-06-29T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 26.1,
+    "temp_mean": 19.6,
+    "temp_min": 12.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803f9c"
+    },
+    "date": {
+      "$date": "2025-06-30T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 29.6,
+    "temp_mean": 22.8,
+    "temp_min": 17.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803f9d"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-07-01T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 20.3,
+    "temp_mean": 16.5,
+    "temp_min": 13.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803f9e"
+    },
+    "date": {
+      "$date": "2025-07-02T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 15.6,
+    "temp_mean": 13.9,
+    "temp_min": 12.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803f9f"
+    },
+    "date": {
+      "$date": "2025-07-03T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 18.3,
+    "temp_mean": 14.4,
+    "temp_min": 9.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803fa0"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-07-04T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 18.4,
+    "temp_mean": 15.6,
+    "temp_min": 13.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803fa1"
+    },
+    "date": {
+      "$date": "2025-07-05T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 21.8,
+    "temp_mean": 17.6,
+    "temp_min": 14.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803fa2"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-07-06T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 17.8,
+    "temp_mean": 14.7,
+    "temp_min": 11.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803fa3"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-07-07T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 19.8,
+    "temp_mean": 14.0,
+    "temp_min": 9.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803fa4"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-07-08T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 20.4,
+    "temp_mean": 15.0,
+    "temp_min": 8.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803fa5"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-07-09T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 23.0,
+    "temp_mean": 18.5,
+    "temp_min": 14.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803fa6"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-07-10T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 26.4,
+    "temp_mean": 20.3,
+    "temp_min": 14.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803fa7"
+    },
+    "date": {
+      "$date": "2025-07-11T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 25.5,
+    "temp_mean": 19.8,
+    "temp_min": 13.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803fa8"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-07-12T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 24.4,
+    "temp_mean": 18.9,
+    "temp_min": 13.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803fa9"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-07-13T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 23.8,
+    "temp_mean": 18.4,
+    "temp_min": 13.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803faa"
+    },
+    "date": {
+      "$date": "2025-07-14T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 22.0,
+    "temp_mean": 18.2,
+    "temp_min": 14.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803fab"
+    },
+    "date": {
+      "$date": "2025-07-15T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 18.0,
+    "temp_mean": 14.4,
+    "temp_min": 11.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803fac"
+    },
+    "date": {
+      "$date": "2025-07-16T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 20.3,
+    "temp_mean": 16.4,
+    "temp_min": 12.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803fad"
+    },
+    "date": {
+      "$date": "2025-07-17T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 23.4,
+    "temp_mean": 18.6,
+    "temp_min": 13.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803fae"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-07-18T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 24.1,
+    "temp_mean": 19.7,
+    "temp_min": 16.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4985737f5418bb803faf"
+    },
+    "date": {
+      "$date": "2025-07-19T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 19.0,
+    "temp_mean": 16.9,
+    "temp_min": 15.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fb0"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-07-20T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 22.4,
+    "temp_mean": 18.3,
+    "temp_min": 16.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fb1"
+    },
+    "date": {
+      "$date": "2025-07-21T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 21.4,
+    "temp_mean": 17.8,
+    "temp_min": 13.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fb2"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-07-22T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 21.0,
+    "temp_mean": 17.6,
+    "temp_min": 14.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fb3"
+    },
+    "date": {
+      "$date": "2025-07-23T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 17.4,
+    "temp_mean": 15.6,
+    "temp_min": 12.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fb4"
+    },
+    "date": {
+      "$date": "2025-07-24T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 20.5,
+    "temp_mean": 17.3,
+    "temp_min": 14.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fb5"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-07-25T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 21.5,
+    "temp_mean": 17.5,
+    "temp_min": 13.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fb6"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-07-26T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 20.0,
+    "temp_mean": 16.8,
+    "temp_min": 13.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fb7"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-07-27T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 18.1,
+    "temp_mean": 15.4,
+    "temp_min": 13.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fb8"
+    },
+    "date": {
+      "$date": "2025-07-28T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 19.0,
+    "temp_mean": 16.2,
+    "temp_min": 12.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fb9"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-07-29T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 20.3,
+    "temp_mean": 15.7,
+    "temp_min": 11.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fba"
+    },
+    "date": {
+      "$date": "2025-07-30T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 22.1,
+    "temp_mean": 17.3,
+    "temp_min": 11.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fbb"
+    },
+    "date": {
+      "$date": "2025-07-31T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 20.0,
+    "temp_mean": 16.5,
+    "temp_min": 13.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fbc"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-08-01T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 17.9,
+    "temp_mean": 15.1,
+    "temp_min": 12.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fbd"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-08-02T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 20.1,
+    "temp_mean": 15.5,
+    "temp_min": 10.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fbe"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-08-03T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 22.4,
+    "temp_mean": 17.7,
+    "temp_min": 14.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fbf"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-08-04T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 19.8,
+    "temp_mean": 15.7,
+    "temp_min": 13.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fc0"
+    },
+    "date": {
+      "$date": "2025-08-05T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 18.0,
+    "temp_mean": 14.7,
+    "temp_min": 11.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fc1"
+    },
+    "date": {
+      "$date": "2025-08-06T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 19.6,
+    "temp_mean": 15.7,
+    "temp_min": 12.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fc2"
+    },
+    "date": {
+      "$date": "2025-08-07T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 20.9,
+    "temp_mean": 16.9,
+    "temp_min": 13.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fc3"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-08-08T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 20.0,
+    "temp_mean": 16.3,
+    "temp_min": 12.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fc4"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-08-09T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 19.5,
+    "temp_mean": 16.6,
+    "temp_min": 14.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fc5"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-08-10T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 22.1,
+    "temp_mean": 16.8,
+    "temp_min": 10.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fc6"
+    },
+    "date": {
+      "$date": "2025-08-11T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 25.2,
+    "temp_mean": 19.8,
+    "temp_min": 16.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fc7"
+    },
+    "date": {
+      "$date": "2025-08-12T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 27.1,
+    "temp_mean": 20.7,
+    "temp_min": 14.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fc8"
+    },
+    "date": {
+      "$date": "2025-08-13T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 28.8,
+    "temp_mean": 21.6,
+    "temp_min": 16.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fc9"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-08-14T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 24.6,
+    "temp_mean": 20.0,
+    "temp_min": 16.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef4986737f5418bb803fca"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-08-15T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 22.3,
+    "temp_mean": 17.8,
+    "temp_min": 14.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fcb"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-08-16T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 19.5,
+    "temp_mean": 16.6,
+    "temp_min": 13.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fcc"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-08-17T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 19.6,
+    "temp_mean": 15.3,
+    "temp_min": 11.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fcd"
+    },
+    "date": {
+      "$date": "2025-08-18T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 17.0,
+    "temp_mean": 15.3,
+    "temp_min": 14.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fce"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-08-19T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 15.6,
+    "temp_mean": 14.4,
+    "temp_min": 13.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fcf"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-08-20T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 15.7,
+    "temp_mean": 13.5,
+    "temp_min": 11.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fd0"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-08-21T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 16.0,
+    "temp_mean": 13.2,
+    "temp_min": 10.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fd1"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-08-22T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 16.9,
+    "temp_mean": 14.1,
+    "temp_min": 11.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fd2"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-08-23T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 17.9,
+    "temp_mean": 14.7,
+    "temp_min": 11.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fd3"
+    },
+    "date": {
+      "$date": "2025-08-24T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 23.3,
+    "temp_mean": 18.0,
+    "temp_min": 11.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fd4"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-08-25T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 26.4,
+    "temp_mean": 19.8,
+    "temp_min": 13.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fd5"
+    },
+    "date": {
+      "$date": "2025-08-26T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 22.0,
+    "temp_mean": 18.4,
+    "temp_min": 14.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fd6"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-08-27T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 21.5,
+    "temp_mean": 15.9,
+    "temp_min": 12.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fd7"
+    },
+    "date": {
+      "$date": "2025-08-28T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 20.0,
+    "temp_mean": 15.1,
+    "temp_min": 11.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fd8"
+    },
+    "date": {
+      "$date": "2025-08-29T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 20.3,
+    "temp_mean": 15.6,
+    "temp_min": 11.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fd9"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-08-30T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 21.0,
+    "temp_mean": 16.4,
+    "temp_min": 12.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fda"
+    },
+    "date": {
+      "$date": "2025-08-31T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 20.5,
+    "temp_mean": 16.5,
+    "temp_min": 13.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fdb"
+    },
+    "date": {
+      "$date": "2025-09-01T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 18.9,
+    "temp_mean": 15.5,
+    "temp_min": 13.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fdc"
+    },
+    "date": {
+      "$date": "2025-09-02T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 19.2,
+    "temp_mean": 15.5,
+    "temp_min": 11.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fdd"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-09-03T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 18.2,
+    "temp_mean": 14.9,
+    "temp_min": 12.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fde"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-09-04T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 18.2,
+    "temp_mean": 14.2,
+    "temp_min": 10.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fdf"
+    },
+    "date": {
+      "$date": "2025-09-05T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 19.0,
+    "temp_mean": 14.6,
+    "temp_min": 11.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fe0"
+    },
+    "date": {
+      "$date": "2025-09-06T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 20.8,
+    "temp_mean": 15.2,
+    "temp_min": 10.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fe1"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-09-07T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 20.8,
+    "temp_mean": 17.8,
+    "temp_min": 15.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fe2"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-09-08T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 18.0,
+    "temp_mean": 14.9,
+    "temp_min": 11.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fe3"
+    },
+    "date": {
+      "$date": "2025-09-09T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 19.8,
+    "temp_mean": 14.0,
+    "temp_min": 8.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fe4"
+    },
+    "date": {
+      "$date": "2025-09-10T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 19.0,
+    "temp_mean": 14.9,
+    "temp_min": 11.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fe5"
+    },
+    "date": {
+      "$date": "2025-09-11T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 15.4,
+    "temp_mean": 12.6,
+    "temp_min": 9.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fe6"
+    },
+    "date": {
+      "$date": "2025-09-12T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 15.6,
+    "temp_mean": 12.2,
+    "temp_min": 9.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fe7"
+    },
+    "date": {
+      "$date": "2025-09-13T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 15.5,
+    "temp_mean": 12.0,
+    "temp_min": 9.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4987737f5418bb803fe8"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-09-14T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 15.6,
+    "temp_mean": 11.9,
+    "temp_min": 8.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb803fe9"
+    },
+    "date": {
+      "$date": "2025-09-15T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 15.9,
+    "temp_mean": 13.6,
+    "temp_min": 11.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb803fea"
+    },
+    "date": {
+      "$date": "2025-09-16T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 16.4,
+    "temp_mean": 13.6,
+    "temp_min": 11.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb803feb"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-09-17T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 20.4,
+    "temp_mean": 14.3,
+    "temp_min": 10.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb803fec"
+    },
+    "date": {
+      "$date": "2025-09-18T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 19.0,
+    "temp_mean": 15.9,
+    "temp_min": 12.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb803fed"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-09-19T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 19.4,
+    "temp_mean": 17.9,
+    "temp_min": 15.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb803fee"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-09-20T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 15.6,
+    "temp_mean": 12.0,
+    "temp_min": 8.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb803fef"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-09-21T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 13.1,
+    "temp_mean": 9.2,
+    "temp_min": 6.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb803ff0"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-09-22T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 13.4,
+    "temp_mean": 8.5,
+    "temp_min": 3.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb803ff1"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-09-23T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 14.4,
+    "temp_mean": 9.6,
+    "temp_min": 5.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb803ff2"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-09-24T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 14.8,
+    "temp_mean": 10.1,
+    "temp_min": 5.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb803ff3"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-09-25T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 16.0,
+    "temp_mean": 10.0,
+    "temp_min": 4.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb803ff4"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-09-26T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 15.8,
+    "temp_mean": 11.2,
+    "temp_min": 5.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb803ff5"
+    },
+    "date": {
+      "$date": "2025-09-27T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 14.9,
+    "temp_mean": 11.8,
+    "temp_min": 8.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb803ff6"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-09-28T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 15.8,
+    "temp_mean": 12.0,
+    "temp_min": 9.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb803ff7"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-09-29T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 15.9,
+    "temp_mean": 10.6,
+    "temp_min": 5.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb803ff8"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-09-30T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 17.2,
+    "temp_mean": 12.7,
+    "temp_min": 8.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb803ff9"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-10-01T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 16.2,
+    "temp_mean": 13.6,
+    "temp_min": 11.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb803ffa"
+    },
+    "date": {
+      "$date": "2025-10-02T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 18.2,
+    "temp_mean": 14.8,
+    "temp_min": 12.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb803ffb"
+    },
+    "date": {
+      "$date": "2025-10-03T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 17.8,
+    "temp_mean": 14.2,
+    "temp_min": 12.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb803ffc"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-10-04T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 13.1,
+    "temp_mean": 11.2,
+    "temp_min": 9.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb803ffd"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-10-05T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 15.1,
+    "temp_mean": 12.0,
+    "temp_min": 9.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb803ffe"
+    },
+    "date": {
+      "$date": "2025-10-06T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 17.6,
+    "temp_mean": 14.5,
+    "temp_min": 11.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb803fff"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-10-07T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 16.8,
+    "temp_mean": 14.4,
+    "temp_min": 12.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb804000"
+    },
+    "date": {
+      "$date": "2025-10-08T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 14.4,
+    "temp_mean": 11.0,
+    "temp_min": 7.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb804001"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-10-09T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 16.0,
+    "temp_mean": 13.5,
+    "temp_min": 12.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb804002"
+    },
+    "date": {
+      "$date": "2025-10-10T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 15.9,
+    "temp_mean": 13.0,
+    "temp_min": 9.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb804003"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-10-11T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 14.9,
+    "temp_mean": 11.2,
+    "temp_min": 8.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb804004"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-10-12T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 15.2,
+    "temp_mean": 10.1,
+    "temp_min": 5.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb804005"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-10-13T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 15.5,
+    "temp_mean": 12.2,
+    "temp_min": 9.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb804006"
+    },
+    "date": {
+      "$date": "2025-10-14T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 11.9,
+    "temp_mean": 10.4,
+    "temp_min": 8.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4988737f5418bb804007"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-10-15T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 12.6,
+    "temp_mean": 10.0,
+    "temp_min": 6.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb804008"
+    },
+    "date": {
+      "$date": "2025-10-16T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 11.2,
+    "temp_mean": 8.6,
+    "temp_min": 5.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb804009"
+    },
+    "date": {
+      "$date": "2025-10-17T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 12.2,
+    "temp_mean": 9.0,
+    "temp_min": 6.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb80400a"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-10-18T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 11.9,
+    "temp_mean": 9.3,
+    "temp_min": 6.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb80400b"
+    },
+    "date": {
+      "$date": "2025-10-19T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 14.4,
+    "temp_mean": 11.3,
+    "temp_min": 8.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb80400c"
+    },
+    "date": {
+      "$date": "2025-10-20T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 13.1,
+    "temp_mean": 11.3,
+    "temp_min": 8.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb80400d"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-10-21T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 13.6,
+    "temp_mean": 10.8,
+    "temp_min": 8.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb80400e"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-10-22T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 13.1,
+    "temp_mean": 9.6,
+    "temp_min": 5.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb80400f"
+    },
+    "date": {
+      "$date": "2025-10-23T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 10.2,
+    "temp_mean": 7.5,
+    "temp_min": 5.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb804010"
+    },
+    "date": {
+      "$date": "2025-10-24T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 10.3,
+    "temp_mean": 7.6,
+    "temp_min": 5.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb804011"
+    },
+    "date": {
+      "$date": "2025-10-25T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 8.9,
+    "temp_mean": 7.1,
+    "temp_min": 4.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb804012"
+    },
+    "date": {
+      "$date": "2025-10-26T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 10.0,
+    "temp_mean": 6.2,
+    "temp_min": 3.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb804013"
+    },
+    "date": {
+      "$date": "2025-10-27T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 9.9,
+    "temp_mean": 7.7,
+    "temp_min": 5.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb804014"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-10-28T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 11.9,
+    "temp_mean": 9.7,
+    "temp_min": 6.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb804015"
+    },
+    "date": {
+      "$date": "2025-10-29T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 11.3,
+    "temp_mean": 8.0,
+    "temp_min": 4.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb804016"
+    },
+    "date": {
+      "$date": "2025-10-30T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 9.8,
+    "temp_mean": 6.5,
+    "temp_min": 2.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb804017"
+    },
+    "date": {
+      "$date": "2025-10-31T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 14.3,
+    "temp_mean": 11.5,
+    "temp_min": 9.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb804018"
+    },
+    "date": {
+      "$date": "2025-11-01T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 11.9,
+    "temp_mean": 10.1,
+    "temp_min": 6.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb804019"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-11-02T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 10.9,
+    "temp_mean": 7.4,
+    "temp_min": 4.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb80401a"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-11-03T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 15.2,
+    "temp_mean": 13.1,
+    "temp_min": 7.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb80401b"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-11-04T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 15.9,
+    "temp_mean": 14.5,
+    "temp_min": 12.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb80401c"
+    },
+    "date": {
+      "$date": "2025-11-05T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 16.7,
+    "temp_mean": 13.6,
+    "temp_min": 11.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb80401d"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-11-06T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 14.8,
+    "temp_mean": 12.5,
+    "temp_min": 10.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb80401e"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-11-07T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 14.5,
+    "temp_mean": 12.3,
+    "temp_min": 11.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb80401f"
+    },
+    "date": {
+      "$date": "2025-11-08T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 15.0,
+    "temp_mean": 11.6,
+    "temp_min": 7.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb804020"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-11-09T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 10.4,
+    "temp_mean": 9.0,
+    "temp_min": 7.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb804021"
+    },
+    "date": {
+      "$date": "2025-11-10T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 12.7,
+    "temp_mean": 10.7,
+    "temp_min": 8.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb804022"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-11-11T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 12.9,
+    "temp_mean": 9.4,
+    "temp_min": 6.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb804023"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-11-12T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 13.9,
+    "temp_mean": 11.8,
+    "temp_min": 9.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb804024"
+    },
+    "date": {
+      "$date": "2025-11-13T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 10.0,
+    "temp_mean": 8.6,
+    "temp_min": 7.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef4989737f5418bb804025"
+    },
+    "date": {
+      "$date": "2025-11-14T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 8.2,
+    "temp_mean": 7.6,
+    "temp_min": 6.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb804026"
+    },
+    "date": {
+      "$date": "2025-11-15T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 9.3,
+    "temp_mean": 8.2,
+    "temp_min": 7.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb804027"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-11-16T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 7.3,
+    "temp_mean": 6.1,
+    "temp_min": 4.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb804028"
+    },
+    "date": {
+      "$date": "2025-11-17T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 5.5,
+    "temp_mean": 3.6,
+    "temp_min": 0.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb804029"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-11-18T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 4.8,
+    "temp_mean": 2.3,
+    "temp_min": 0.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb80402a"
+    },
+    "date": {
+      "$date": "2025-11-19T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 3.2,
+    "temp_mean": 1.6,
+    "temp_min": -0.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb80402b"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-11-20T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 2.4,
+    "temp_mean": 0.5,
+    "temp_min": -1.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb80402c"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-11-21T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 3.8,
+    "temp_mean": 0.7,
+    "temp_min": -2.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb80402d"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-11-22T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 8.5,
+    "temp_mean": 4.9,
+    "temp_min": 2.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb80402e"
+    },
+    "date": {
+      "$date": "2025-11-23T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 7.3,
+    "temp_mean": 4.3,
+    "temp_min": 2.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb80402f"
+    },
+    "date": {
+      "$date": "2025-11-24T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 7.6,
+    "temp_mean": 5.5,
+    "temp_min": 3.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb804030"
+    },
+    "date": {
+      "$date": "2025-11-25T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 6.4,
+    "temp_mean": 3.7,
+    "temp_min": 0.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb804031"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-11-26T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 8.7,
+    "temp_mean": 2.6,
+    "temp_min": -2.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb804032"
+    },
+    "date": {
+      "$date": "2025-11-27T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 14.4,
+    "temp_mean": 12.5,
+    "temp_min": 9.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb804033"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-11-28T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 9.8,
+    "temp_mean": 8.3,
+    "temp_min": 6.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb804034"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-11-29T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 6.8,
+    "temp_mean": 5.0,
+    "temp_min": 3.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb804035"
+    },
+    "date": {
+      "$date": "2025-11-30T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 4.9,
+    "temp_mean": 3.0,
+    "temp_min": 0.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb804036"
+    },
+    "date": {
+      "$date": "2025-12-01T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 11.8,
+    "temp_mean": 8.7,
+    "temp_min": 3.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb804037"
+    },
+    "date": {
+      "$date": "2025-12-02T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 10.0,
+    "temp_mean": 7.0,
+    "temp_min": 4.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb804038"
+    },
+    "date": {
+      "$date": "2025-12-03T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 6.2,
+    "temp_mean": 4.0,
+    "temp_min": 2.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb804039"
+    },
+    "date": {
+      "$date": "2025-12-04T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 7.3,
+    "temp_mean": 5.4,
+    "temp_min": 3.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb80403a"
+    },
+    "date": {
+      "$date": "2025-12-05T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 6.2,
+    "temp_mean": 4.7,
+    "temp_min": 2.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb80403b"
+    },
+    "date": {
+      "$date": "2025-12-06T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 9.9,
+    "temp_mean": 6.9,
+    "temp_min": 4.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb80403c"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-12-07T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 10.3,
+    "temp_mean": 7.3,
+    "temp_min": 4.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb80403d"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-12-08T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 10.9,
+    "temp_mean": 9.3,
+    "temp_min": 7.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb80403e"
+    },
+    "date": {
+      "$date": "2025-12-09T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 14.4,
+    "temp_mean": 11.2,
+    "temp_min": 7.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb80403f"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-12-10T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 10.7,
+    "temp_mean": 9.8,
+    "temp_min": 8.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb804040"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-12-11T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 10.6,
+    "temp_mean": 9.3,
+    "temp_min": 7.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb804041"
+    },
+    "date": {
+      "$date": "2025-12-12T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 9.2,
+    "temp_mean": 7.4,
+    "temp_min": 4.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb804042"
+    },
+    "date": {
+      "$date": "2025-12-13T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 10.4,
+    "temp_mean": 7.6,
+    "temp_min": 5.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb804043"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-12-14T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 11.6,
+    "temp_mean": 10.9,
+    "temp_min": 10.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef498a737f5418bb804044"
+    },
+    "date": {
+      "$date": "2025-12-15T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 10.9,
+    "temp_mean": 8.8,
+    "temp_min": 6.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb804045"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-12-16T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 5.8,
+    "temp_mean": 4.0,
+    "temp_min": 1.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb804046"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-12-17T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 9.6,
+    "temp_mean": 6.4,
+    "temp_min": 2.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb804047"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-12-18T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 10.2,
+    "temp_mean": 8.2,
+    "temp_min": 6.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb804048"
+    },
+    "date": {
+      "$date": "2025-12-19T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 9.1,
+    "temp_mean": 7.5,
+    "temp_min": 6.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb804049"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-12-20T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 6.2,
+    "temp_mean": 4.6,
+    "temp_min": 3.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb80404a"
+    },
+    "date": {
+      "$date": "2025-12-21T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 8.8,
+    "temp_mean": 7.2,
+    "temp_min": 4.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb80404b"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-12-22T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 8.9,
+    "temp_mean": 8.3,
+    "temp_min": 7.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb80404c"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-12-23T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 7.8,
+    "temp_mean": 7.2,
+    "temp_min": 6.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb80404d"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-12-24T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 7.2,
+    "temp_mean": 6.1,
+    "temp_min": 4.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb80404e"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-12-25T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 6.2,
+    "temp_mean": 5.3,
+    "temp_min": 4.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb80404f"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-12-26T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 7.0,
+    "temp_mean": 4.9,
+    "temp_min": 3.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb804050"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-12-27T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 7.0,
+    "temp_mean": 5.7,
+    "temp_min": 3.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb804051"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-12-28T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 6.4,
+    "temp_mean": 5.7,
+    "temp_min": 4.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb804052"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-12-29T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 5.9,
+    "temp_mean": 4.8,
+    "temp_min": 3.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb804053"
+    },
+    "date": {
+      "$date": "2025-12-30T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 5.4,
+    "temp_mean": 3.6,
+    "temp_min": -0.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb804054"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2025-12-31T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 5.0,
+    "temp_mean": 1.8,
+    "temp_min": -1.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb804055"
+    },
+    "date": {
+      "$date": "2026-01-01T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 5.2,
+    "temp_mean": 3.1,
+    "temp_min": 0.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb804056"
+    },
+    "date": {
+      "$date": "2026-01-02T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 1.9,
+    "temp_mean": 0.0,
+    "temp_min": -1.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb804057"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-01-03T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 1.1,
+    "temp_mean": -0.7,
+    "temp_min": -1.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb804058"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-01-04T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 0.2,
+    "temp_mean": -1.9,
+    "temp_min": -3.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb804059"
+    },
+    "date": {
+      "$date": "2026-01-05T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 0.2,
+    "temp_mean": -2.4,
+    "temp_min": -3.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb80405a"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-01-06T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 2.5,
+    "temp_mean": -0.2,
+    "temp_min": -3.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb80405b"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-01-07T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 3.9,
+    "temp_mean": 2.1,
+    "temp_min": 0.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef498b737f5418bb80405c"
+    },
+    "date": {
+      "$date": "2026-01-08T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 1.9,
+    "temp_mean": -0.2,
+    "temp_min": -2.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb80405d"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-01-09T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 3.1,
+    "temp_mean": 1.5,
+    "temp_min": -0.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb80405e"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-01-10T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 1.2,
+    "temp_mean": -1.3,
+    "temp_min": -4.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb80405f"
+    },
+    "date": {
+      "$date": "2026-01-11T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 7.9,
+    "temp_mean": 2.1,
+    "temp_min": -0.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb804060"
+    },
+    "date": {
+      "$date": "2026-01-12T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 9.2,
+    "temp_mean": 8.2,
+    "temp_min": 7.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb804061"
+    },
+    "date": {
+      "$date": "2026-01-13T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 7.9,
+    "temp_mean": 5.9,
+    "temp_min": 2.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb804062"
+    },
+    "date": {
+      "$date": "2026-01-14T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 5.8,
+    "temp_mean": 3.2,
+    "temp_min": 1.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb804063"
+    },
+    "date": {
+      "$date": "2026-01-15T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 7.1,
+    "temp_mean": 4.5,
+    "temp_min": 1.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb804064"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-01-16T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 4.9,
+    "temp_mean": 1.3,
+    "temp_min": -1.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb804065"
+    },
+    "date": {
+      "$date": "2026-01-17T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 6.9,
+    "temp_mean": 4.8,
+    "temp_min": 3.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb804066"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-01-18T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 6.1,
+    "temp_mean": 5.3,
+    "temp_min": 4.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb804067"
+    },
+    "date": {
+      "$date": "2026-01-19T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 7.4,
+    "temp_mean": 5.8,
+    "temp_min": 4.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb804068"
+    },
+    "date": {
+      "$date": "2026-01-20T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 8.8,
+    "temp_mean": 7.5,
+    "temp_min": 5.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb804069"
+    },
+    "date": {
+      "$date": "2026-01-21T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 7.8,
+    "temp_mean": 6.3,
+    "temp_min": 4.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb80406a"
+    },
+    "date": {
+      "$date": "2026-01-22T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 7.2,
+    "temp_mean": 6.1,
+    "temp_min": 4.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb80406b"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-01-23T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 6.5,
+    "temp_mean": 5.9,
+    "temp_min": 4.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb80406c"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-01-24T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 6.7,
+    "temp_mean": 6.1,
+    "temp_min": 5.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb80406d"
+    },
+    "date": {
+      "$date": "2026-01-25T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 6.2,
+    "temp_mean": 5.5,
+    "temp_min": 4.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb80406e"
+    },
+    "date": {
+      "$date": "2026-01-26T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 4.9,
+    "temp_mean": 4.0,
+    "temp_min": 3.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb80406f"
+    },
+    "date": {
+      "$date": "2026-01-27T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 5.6,
+    "temp_mean": 4.2,
+    "temp_min": 3.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb804070"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-01-28T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 5.8,
+    "temp_mean": 3.4,
+    "temp_min": 1.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb804071"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-01-29T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 4.2,
+    "temp_mean": 3.3,
+    "temp_min": 0.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb804072"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-01-30T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 5.4,
+    "temp_mean": 3.7,
+    "temp_min": 2.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb804073"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-01-31T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 8.4,
+    "temp_mean": 6.2,
+    "temp_min": 5.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb804074"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-02-01T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 8.1,
+    "temp_mean": 4.8,
+    "temp_min": 2.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb804075"
+    },
+    "date": {
+      "$date": "2026-02-02T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 6.3,
+    "temp_mean": 3.7,
+    "temp_min": 0.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb804076"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-02-03T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 4.3,
+    "temp_mean": 3.4,
+    "temp_min": 2.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef498c737f5418bb804077"
+    },
+    "date": {
+      "$date": "2026-02-04T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 5.8,
+    "temp_mean": 4.0,
+    "temp_min": 2.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb804078"
+    },
+    "date": {
+      "$date": "2026-02-05T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 5.8,
+    "temp_mean": 4.5,
+    "temp_min": 3.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb804079"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-02-06T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 4.8,
+    "temp_mean": 4.1,
+    "temp_min": 3.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb80407a"
+    },
+    "date": {
+      "$date": "2026-02-07T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 8.1,
+    "temp_mean": 6.2,
+    "temp_min": 4.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb80407b"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-02-08T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 9.5,
+    "temp_mean": 7.5,
+    "temp_min": 5.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb80407c"
+    },
+    "date": {
+      "$date": "2026-02-09T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 8.5,
+    "temp_mean": 6.8,
+    "temp_min": 5.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb80407d"
+    },
+    "date": {
+      "$date": "2026-02-10T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 6.2,
+    "temp_mean": 5.7,
+    "temp_min": 5.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb80407e"
+    },
+    "date": {
+      "$date": "2026-02-11T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 5.9,
+    "temp_mean": 5.4,
+    "temp_min": 4.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb80407f"
+    },
+    "date": {
+      "$date": "2026-02-12T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 4.0,
+    "temp_mean": 3.4,
+    "temp_min": 2.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb804080"
+    },
+    "date": {
+      "$date": "2026-02-13T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 2.8,
+    "temp_mean": 1.4,
+    "temp_min": -1.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb804081"
+    },
+    "date": {
+      "$date": "2026-02-14T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 4.2,
+    "temp_mean": 0.2,
+    "temp_min": -2.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb804082"
+    },
+    "date": {
+      "$date": "2026-02-15T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 5.2,
+    "temp_mean": 3.0,
+    "temp_min": 1.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb804083"
+    },
+    "date": {
+      "$date": "2026-02-16T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 7.2,
+    "temp_mean": 4.6,
+    "temp_min": 3.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb804084"
+    },
+    "date": {
+      "$date": "2026-02-17T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 3.4,
+    "temp_mean": 1.7,
+    "temp_min": 0.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb804085"
+    },
+    "date": {
+      "$date": "2026-02-18T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 4.9,
+    "temp_mean": 2.7,
+    "temp_min": 0.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb804086"
+    },
+    "date": {
+      "$date": "2026-02-19T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 5.6,
+    "temp_mean": 4.3,
+    "temp_min": 3.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb804087"
+    },
+    "date": {
+      "$date": "2026-02-20T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 10.5,
+    "temp_mean": 6.8,
+    "temp_min": 3.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb804088"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-02-21T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 11.6,
+    "temp_mean": 9.5,
+    "temp_min": 7.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb804089"
+    },
+    "date": {
+      "$date": "2026-02-22T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 11.4,
+    "temp_mean": 9.8,
+    "temp_min": 8.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb80408a"
+    },
+    "date": {
+      "$date": "2026-02-23T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 10.4,
+    "temp_mean": 8.7,
+    "temp_min": 7.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb80408b"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-02-24T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 13.3,
+    "temp_mean": 10.1,
+    "temp_min": 7.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb80408c"
+    },
+    "date": {
+      "$date": "2026-02-25T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 13.4,
+    "temp_mean": 10.0,
+    "temp_min": 6.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb80408d"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-02-26T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 11.4,
+    "temp_mean": 10.6,
+    "temp_min": 9.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb80408e"
+    },
+    "date": {
+      "$date": "2026-02-27T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 11.5,
+    "temp_mean": 9.1,
+    "temp_min": 5.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb80408f"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-02-28T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 8.1,
+    "temp_mean": 5.3,
+    "temp_min": 1.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb804090"
+    },
+    "date": {
+      "$date": "2026-03-01T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 11.5,
+    "temp_mean": 7.0,
+    "temp_min": 1.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb804091"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-03-02T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 12.6,
+    "temp_mean": 10.3,
+    "temp_min": 7.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb804092"
+    },
+    "date": {
+      "$date": "2026-03-03T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 10.2,
+    "temp_mean": 5.9,
+    "temp_min": 2.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb804093"
+    },
+    "date": {
+      "$date": "2026-03-04T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 12.1,
+    "temp_mean": 6.5,
+    "temp_min": 2.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb804094"
+    },
+    "date": {
+      "$date": "2026-03-05T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 14.4,
+    "temp_mean": 9.3,
+    "temp_min": 5.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef498d737f5418bb804095"
+    },
+    "date": {
+      "$date": "2026-03-06T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 6.8,
+    "temp_mean": 4.4,
+    "temp_min": 2.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb804096"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-03-07T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 9.9,
+    "temp_mean": 3.3,
+    "temp_min": -3.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb804097"
+    },
+    "date": {
+      "$date": "2026-03-08T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 11.1,
+    "temp_mean": 6.0,
+    "temp_min": 0.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb804098"
+    },
+    "date": {
+      "$date": "2026-03-09T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 13.3,
+    "temp_mean": 9.3,
+    "temp_min": 6.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb804099"
+    },
+    "date": {
+      "$date": "2026-03-10T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 11.1,
+    "temp_mean": 8.9,
+    "temp_min": 6.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb80409a"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-03-11T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 10.1,
+    "temp_mean": 8.7,
+    "temp_min": 6.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb80409b"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-03-12T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 10.5,
+    "temp_mean": 8.1,
+    "temp_min": 4.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb80409c"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-03-13T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 9.2,
+    "temp_mean": 5.4,
+    "temp_min": 2.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb80409d"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-03-14T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 9.1,
+    "temp_mean": 5.2,
+    "temp_min": 2.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb80409e"
+    },
+    "date": {
+      "$date": "2026-03-15T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 9.1,
+    "temp_mean": 6.1,
+    "temp_min": 3.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb80409f"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-03-16T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 10.1,
+    "temp_mean": 6.8,
+    "temp_min": 3.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb8040a0"
+    },
+    "date": {
+      "$date": "2026-03-17T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 15.6,
+    "temp_mean": 12.1,
+    "temp_min": 9.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb8040a1"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-03-18T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 16.3,
+    "temp_mean": 10.3,
+    "temp_min": 6.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb8040a2"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-03-19T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 11.4,
+    "temp_mean": 8.5,
+    "temp_min": 5.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb8040a3"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-03-20T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 14.2,
+    "temp_mean": 8.5,
+    "temp_min": 4.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb8040a4"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-03-21T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 15.0,
+    "temp_mean": 8.3,
+    "temp_min": 2.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb8040a5"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-03-22T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 12.6,
+    "temp_mean": 7.2,
+    "temp_min": 2.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb8040a6"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-03-23T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 9.6,
+    "temp_mean": 6.4,
+    "temp_min": 2.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb8040a7"
+    },
+    "date": {
+      "$date": "2026-03-24T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 13.1,
+    "temp_mean": 10.6,
+    "temp_min": 6.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb8040a8"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-03-25T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 8.4,
+    "temp_mean": 5.1,
+    "temp_min": 2.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb8040a9"
+    },
+    "date": {
+      "$date": "2026-03-26T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 8.3,
+    "temp_mean": 4.2,
+    "temp_min": -0.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb8040aa"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-03-27T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 11.8,
+    "temp_mean": 8.3,
+    "temp_min": 4.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb8040ab"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-03-28T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 9.3,
+    "temp_mean": 5.7,
+    "temp_min": 3.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb8040ac"
+    },
+    "date": {
+      "$date": "2026-03-29T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 10.1,
+    "temp_mean": 6.3,
+    "temp_min": 3.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb8040ad"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-03-30T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 10.6,
+    "temp_mean": 7.2,
+    "temp_min": 4.7
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb8040ae"
+    },
+    "date": {
+      "$date": "2026-03-31T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 15.4,
+    "temp_mean": 11.0,
+    "temp_min": 7.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb8040af"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-04-01T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 14.4,
+    "temp_mean": 10.4,
+    "temp_min": 5.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb8040b0"
+    },
+    "date": {
+      "$date": "2026-04-02T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 11.1,
+    "temp_mean": 6.2,
+    "temp_min": 1.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb8040b1"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-04-03T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 13.6,
+    "temp_mean": 8.9,
+    "temp_min": 5.3
+  },
+  {
+    "_id": {
+      "$oid": "69ef498e737f5418bb8040b2"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-04-04T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 12.3,
+    "temp_mean": 7.2,
+    "temp_min": 2.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef498f737f5418bb8040b3"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-04-05T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 8.2,
+    "temp_mean": 6.4,
+    "temp_min": 4.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef498f737f5418bb8040b4"
+    },
+    "date": {
+      "$date": "2026-04-06T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 13.2,
+    "temp_mean": 7.6,
+    "temp_min": 1.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef498f737f5418bb8040b5"
+    },
+    "date": {
+      "$date": "2026-04-07T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 16.6,
+    "temp_mean": 10.0,
+    "temp_min": 4.5
+  },
+  {
+    "_id": {
+      "$oid": "69ef498f737f5418bb8040b6"
+    },
+    "date": {
+      "$date": "2026-04-08T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 21.1,
+    "temp_mean": 13.4,
+    "temp_min": 7.4
+  },
+  {
+    "_id": {
+      "$oid": "69ef498f737f5418bb8040b7"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-04-09T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 12.9,
+    "temp_mean": 9.8,
+    "temp_min": 5.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef498f737f5418bb8040b8"
+    },
+    "date": {
+      "$date": "2026-04-10T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 11.0,
+    "temp_mean": 7.2,
+    "temp_min": 3.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef498f737f5418bb8040b9"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-04-11T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 10.4,
+    "temp_mean": 7.3,
+    "temp_min": 5.6
+  },
+  {
+    "_id": {
+      "$oid": "69ef498f737f5418bb8040ba"
+    },
+    "date": {
+      "$date": "2026-04-12T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 12.1,
+    "temp_mean": 8.8,
+    "temp_min": 5.8
+  },
+  {
+    "_id": {
+      "$oid": "69ef498f737f5418bb8040bb"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-04-13T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 12.1,
+    "temp_mean": 7.2,
+    "temp_min": 2.0
+  },
+  {
+    "_id": {
+      "$oid": "69ef498f737f5418bb8040bc"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-04-14T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 13.6,
+    "temp_mean": 7.9,
+    "temp_min": 0.2
+  },
+  {
+    "_id": {
+      "$oid": "69ef498f737f5418bb8040bd"
+    },
+    "date": {
+      "$date": "2026-04-15T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 17.5,
+    "temp_mean": 12.7,
+    "temp_min": 8.9
+  },
+  {
+    "_id": {
+      "$oid": "69ef498f737f5418bb8040be"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-04-16T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 14.4,
+    "temp_mean": 11.3,
+    "temp_min": 9.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef498f737f5418bb8040bf"
+    },
+    "date": {
+      "$date": "2026-04-17T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 14.1,
+    "temp_mean": 11.3,
+    "temp_min": 9.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef498f737f5418bb8040c0"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-04-18T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 13.9,
+    "temp_mean": 10.3,
+    "temp_min": 7.1
+  },
+  {
+    "_id": {
+      "$oid": "69ef498f737f5418bb8040c1"
+    },
+    "date": {
+      "$date": "2026-04-19T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 11.3,
+    "temp_mean": 7.6,
+    "temp_min": 3.5
+  },
+  {
+    "_id": {
+      "$oid": "69f068a365cea4ee4e280028"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-05-13T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 10.7,
+    "temp_mean": 7.3,
+    "temp_min": 4.7
+  },
+  {
+    "_id": {
+      "$oid": "69f1b8bba07f6734465b341e"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-05-14T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 10.9,
+    "temp_mean": 7.3,
+    "temp_min": 3.3
+  },
+  {
+    "_id": {
+      "$oid": "69f30af2a07f6734465b984e"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-05-15T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 10.4,
+    "temp_mean": 7.5,
+    "temp_min": 3.8
+  },
+  {
+    "_id": {
+      "$oid": "69f80af8e46bc74e8afa50ff"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-05-16T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 13.6,
+    "temp_mean": 8.5,
+    "temp_min": 1.9
+  },
+  {
+    "_id": {
+      "$oid": "69f80af8e46bc74e8afa5100"
+    },
+    "date": {
+      "$date": "2026-05-17T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 14.0,
+    "temp_mean": 10.4,
+    "temp_min": 6.6
+  },
+  {
+    "_id": {
+      "$oid": "69f80af8e46bc74e8afa5101"
+    },
+    "date": {
+      "$date": "2026-05-18T00:00:00"
+    },
+    "lon": -1.631,
+    "lat": 54.972,
+    "source": "open-meteo-archive",
+    "temp_max": 14.1,
+    "temp_mean": 10.3,
+    "temp_min": 5.0
+  },
+  {
+    "_id": {
+      "$oid": "69f95a93e46bc74e8afd1d9e"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-05-19T00:00:00"
+    },
+    "source": "open-meteo-archive",
+    "temp_max": 16.6,
+    "temp_mean": 12.1,
+    "temp_min": 9.1
+  },
+  {
+    "_id": {
+      "$oid": "69faad97e46bc74e8afd7f6f"
+    },
+    "lat": 54.972,
+    "date": {
+      "$date": "2026-05-20T00:00:00"
+    },
+    "lon": -1.631,
+    "source": "open-meteo-archive",
+    "temp_max": 17.5,
+    "temp_mean": 13.9,
+    "temp_min": 10.0
+  },
+  {
+    "_id": {
+      "$oid": "6a014ec874142d44e9a1f937"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-05-21T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-forecast",
+    "temp_max": 18.0,
+    "temp_mean": 15.0,
+    "temp_min": 12.6
+  },
+  {
+    "_id": {
+      "$oid": "6a014ec874142d44e9a1f938"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-05-22T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-forecast",
+    "temp_max": 23.6,
+    "temp_mean": 18.4,
+    "temp_min": 14.0
+  },
+  {
+    "_id": {
+      "$oid": "6a014ec874142d44e9a1f939"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-05-23T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-forecast",
+    "temp_max": 20.7,
+    "temp_mean": 16.5,
+    "temp_min": 12.7
+  },
+  {
+    "_id": {
+      "$oid": "6a014ec874142d44e9a1f93a"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-05-24T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-forecast",
+    "temp_max": 19.6,
+    "temp_mean": 16.0,
+    "temp_min": 12.4
+  },
+  {
+    "_id": {
+      "$oid": "6a014ec874142d44e9a1f93b"
+    },
+    "date": {
+      "$date": "2026-05-25T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-forecast",
+    "temp_max": 20.0,
+    "temp_mean": 16.1,
+    "temp_min": 11.5
+  },
+  {
+    "_id": {
+      "$oid": "6a029d4974142d44e9a2bba1"
+    },
+    "date": {
+      "$date": "2026-05-26T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-forecast",
+    "temp_max": 26.7,
+    "temp_mean": 18.8,
+    "temp_min": 13.6
+  },
+  {
+    "_id": {
+      "$oid": "6a03f0a174142d44e9a34a82"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-05-27T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-forecast",
+    "temp_max": 28.8,
+    "temp_mean": 22.0,
+    "temp_min": 15.6
+  },
+  {
+    "_id": {
+      "$oid": "6a054229307b88a2423bf598"
+    },
+    "lon": -1.631,
+    "lat": 54.972,
+    "date": {
+      "$date": "2026-05-28T00:00:00"
+    },
+    "source": "open-meteo-forecast",
+    "temp_max": 18.3,
+    "temp_mean": 13.2,
+    "temp_min": 10.0
+  },
+  {
+    "_id": {
+      "$oid": "6a0936cb307b88a2423d74cd"
+    },
+    "lon": -1.631,
+    "lat": 54.972,
+    "date": {
+      "$date": "2026-05-29T00:00:00"
+    },
+    "source": "open-meteo-forecast",
+    "temp_max": 11.9,
+    "temp_mean": 10.5,
+    "temp_min": 8.5
+  },
+  {
+    "_id": {
+      "$oid": "6a0936cb307b88a2423d74ce"
+    },
+    "date": {
+      "$date": "2026-05-30T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-forecast",
+    "temp_max": 16.6,
+    "temp_mean": 12.2,
+    "temp_min": 7.2
+  },
+  {
+    "_id": {
+      "$oid": "6a0936cb307b88a2423d74cf"
+    },
+    "date": {
+      "$date": "2026-05-31T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-forecast",
+    "temp_max": 16.6,
+    "temp_mean": 12.1,
+    "temp_min": 8.6
+  },
+  {
+    "_id": {
+      "$oid": "6a0a8b50307b88a2423de306"
+    },
+    "date": {
+      "$date": "2026-06-01T00:00:00"
+    },
+    "lat": 54.972,
+    "lon": -1.631,
+    "source": "open-meteo-forecast",
+    "temp_max": 13.6,
+    "temp_mean": 10.9,
+    "temp_min": 8.3
+  },
+  {
+    "_id": {
+      "$oid": "6a0bdb2cababa05de70edd52"
+    },
+    "lat": 54.972,
+    "date": {
+      "$date": "2026-06-02T00:00:00"
+    },
+    "lon": -1.631,
+    "source": "open-meteo-forecast",
+    "temp_max": 16.4,
+    "temp_mean": 13.0,
+    "temp_min": 9.2
+  },
+  {
+    "_id": {
+      "$oid": "6a0d2cd114a19e8c4df40be2"
+    },
+    "lon": -1.631,
+    "date": {
+      "$date": "2026-06-03T00:00:00"
+    },
+    "lat": 54.972,
+    "source": "open-meteo-forecast",
+    "temp_max": 14.0,
+    "temp_mean": 12.1,
+    "temp_min": 8.1
+  }
+]
